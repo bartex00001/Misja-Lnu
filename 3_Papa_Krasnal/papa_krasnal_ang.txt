@@ -21,7 +21,7 @@ Output:
 
 
 Hint:
-If you know the datetime library you can use it for easy date comparison. If not – that’s fine. You can compare year, month and day separately. Remember to change variable types!
+If you know the `datetime` library you can use it for easy date comparison. If not – that’s fine. You can compare year, month and day separately. Remember to change variable types!
 
 
 

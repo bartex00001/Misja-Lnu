@@ -1,6 +1,6 @@
 Matematyk otrzymał z instytutu informatyki obliczenia zapisane w odwrotnej notacji polskiej. Pomóż mu i oblicz wartość podanych wyrażeń.
 
-Napisz funkcję `onp()`, która wwykona obliczenia (odwrotnej notacji polskiej) {LINK: https://pl.wikipedia.org/wiki/Odwrotna_notacja_polska (dać na niebiesko tekst)}
+Napisz funkcję `onp()`, która wykona obliczenia (odwrotnej notacji polskiej) {LINK: https://pl.wikipedia.org/wiki/Odwrotna_notacja_polska (dać na niebiesko tekst)}
 i zwróci `int` będący wynikiem tych obliczeń.
 
 Uwzględnij następujące działania:

@@ -20,8 +20,6 @@ to znaczy że z przystanku a jest bezpośrednie połączenie z przystankiem b.
 Uzupełnij funkcję `check_connection()`, by jeżeli jest możliwe (pośrednie lub bezpośrednie) dostanie się z przystanku `a` na przystanek `b` to
 funkcja powinna zwrócić `True`, w innym przypadku `False`.
 
-
-
 Przykłady: 
 
 Wejście:
