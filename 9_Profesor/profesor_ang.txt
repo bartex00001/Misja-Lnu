@@ -1,18 +1,18 @@
-Professor would like to know whether there is `a` path from stop a to stop `b`.
+The Professor would like to know whether there is a path from stop `a` to stop `b`.
 
-Function `check_connection` takes three arguments:
+Function `check_connection()` takes three arguments:
 `stop_a`, `stop_b` and `connections`. First two arguments describe stop ids.
-Third argument is a dictionary:
+Third argument is a dictionary formated like so:
 ```
 {
-	…
+	...
 	stop_id: [ ids_of_connected_stops ]
-	…
+	...
 }
 ```
 
-Dictionary stores only direct connections. This means that if stop `a` can be found in `connections[b]` direct connection exists.
-You are to finish `check_connection` function, so it returns `True` if there is a direct or indirect connection from `stop_a` to `stop_b`.
+The dictionary stores only direct connections. This means that if stop `a` can be found in `connections[b]` direct connection exists.
+You are to write the `check_connection()` function, so it returns `True` if there is a direct or indirect connection from `stop_a` to `stop_b`.
 Otherwise, the function should return `False`.
 
 Example:
@@ -34,7 +34,7 @@ The connection exists because from stop 1, you can go to stop 3 via stop 2.
 
 
 Hint:
-Algorithm should recursively visit all available, unvisited stops. Starting from stop `a` and stopping when we reach stop `b` or when we can’t reach any unvisited stops.
+Algorithm should recursively visit all available, unvisited stops. Starting from stop `a` and stopping when we reach stop `b` or when it can’t reach any unvisited stops.
 
 
 Starter code:

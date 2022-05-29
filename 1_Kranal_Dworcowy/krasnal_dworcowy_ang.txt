@@ -1,11 +1,12 @@
-Station dwarf needs a program, which will automatically fill out a card with greetings to a newly met dwarf.
+The station dwarf needs a program, which will automatically fill out a card with greetings for a newly met dwarf.
 
-You are to write a function `przywitanie()` [pl -> greetings], which for every element of given list will add: 
-`"Witaj "` [pl -> welcome] to the beginning, `'!'` to the end and return modified list afterwards.
+You are to write a function `przywitanie()` [pl -> greetings], which for every element of given list will add  
+`"Witaj "` [pl -> welcome] to the beginning and `'!'` to the end and will return the modified list afterwards.
+
 
 
 Hint:
-Crate a new empty list and add elements to it using `.append()` method.
+Crate a new empty list and add elements to it using the `.append()` method.
 ```
 lista = []
 lista.append("value")

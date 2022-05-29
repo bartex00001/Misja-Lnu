@@ -1,4 +1,3 @@
-from sys import warnoptions
 from reszta import reszta
 import random
 from math import ceil

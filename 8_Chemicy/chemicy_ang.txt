@@ -1,14 +1,14 @@
 Chemists from UWr and PWr compete to create the longest hydropalindrome.
 
-You are to finish `compare_palindromes()` function,
+You are to write the `compare_palindromes()` function,
 which will return the length of the longest hydropalindrome of both UWr’s and PWr’s chemists.
 
 - File names will be passed as arguments to the function
 - Each compound will take one line in file (many compounds in one file)
 - Not all compounds will be hydropalindromes
 - Function must return a tuple containing the lengths of the longest hydropalindromes of both UWr’s and PWr’s chemists.
-- Hydropalindromes are made of: carbon, hydrogen, oxygen, nitrogen and phosphorus (all represented by one-character symbols)
-- Compound is a hydropalindrome if the order of elements is the same from left and right
+- Hydropalindromes are made of: carbon, hydrogen, oxygen, nitrogen and phosphorus (all represented by one-character chemical symbols)
+- Compound is a hydropalindrome if the order of elements is the same while reading from left and from right
 
 
 Example:
@@ -30,16 +30,16 @@ Output:
 
 
 Hint: 
-All lines of the file can be loaded into the list using following expression:
+All lines of the file can be loaded into a list using following expression:
 ```
 with open(file_name) as file:
     lines = file.readlines()
 ```
-and there must be a way to easily reverse a string :)
+and there surely is a way to easily reverse a string :)
 
 
 
 Starter code:
 def compare_palindromes(pwr_file, uwr_file):
-    return (0,0)
+    return (0, 0)
 

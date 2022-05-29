@@ -1,6 +1,6 @@
 Chemicy na UWr i PWr rywalizują o stworzenie najdłuższej cząsteczki palindromowodoru.
 
-Twoim zadaniem jest implementacja funkcji `compare_palindromes()`, która zwróci długość najdłuższego palindromowodoru z PWR i UWR.
+Twoim zadaniem jest implementacja funkcji `compare_palindromes()`, która zwróci długość najdłuższego palindromowodoru z PWr i UWr.
 Dwaj chemicy nie moga się doliczyć ich długości, dlatego poprosili cię o pomoc.
 
 - Nazwy plików z palindromowodorami zostaną przekazane w argumentach funkcji.
@@ -28,6 +28,7 @@ Wyjście:
 `(9, 8)`
 
 
+
 Podpowiedź:
 Wszystkie linie z pliku (oddzielnie) można wczytać do listy używając wyrażenia 
 ```
@@ -40,4 +41,4 @@ Na proste odwrócenie stringa też napewno jest jakiś sposób :)
 
 Kod Startowy:
 def compare_palindromes(pwr_file, uwr_file):
-    return (0,0)
+    return (0, 0)

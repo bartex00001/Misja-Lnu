@@ -8,27 +8,25 @@ FizzBuzz polega na wypisaniu liczb z zakresu, jednak gdy:
 
 
 Twoim zadaniem jest napisanie programu, który sprawdzi udzielone odpowiedzi.
-Otrzymasz vector par `int` oraz `string`. Gdzie `int` oznacza liczbę, a `string` wypisany tekst.
+Otrzymasz `vector pair`: `int` oraz `string`. Gdzie `int` oznacza liczbę, a `string` wypisany tekst.
 Zwróć `true`, jeżeli odpowiedzi są poprawne i `false` w przeciwnym wypadku.
 
 
 
 Przykłady: 
 
-dla danych:
+Dla danych:
 `{
     {3, "Fizz"},
     {5, "Buzz"}
 }`
-
 Program powinien zwrócić `true`.
 
-dla danych:
+Dla danych:
 `{
     {15, "FizzBuzz"},
     {7, "Fizz"}
 }
-
 Program powinien zwrócic `false`.
 
 

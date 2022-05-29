@@ -1,10 +1,9 @@
 Programista musi naprawić zepsuty kod i potrzebuje twojej pomocy
 
-Funkcja `username_validate` powinna sprawdzać czy podany w argumencie `username` NIE zawiera innych znaków niż:
+Funkcja `username_validate()` powinna sprawdzać czy podany w argumencie `username` NIE zawiera innych znaków niż:
 - małe litery
 - duże litery
 - cyfry
-
 Jeżeli argument `username` zawiera tylko podane znaki, funkcja powinna zwrócić `True`,
 w innym przypadku powinna zwrócić `False`
 

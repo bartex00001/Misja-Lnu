@@ -1,4 +1,4 @@
-Papa Krasnal, jako najstarszy z krasnali ma wiele obowiązków. Jednym z nich jest rozwiązywanie sporów między krasnalami o starszość wiekiem.
+Papa Krasnal, jako najstarszy z krasnali, ma wiele obowiązków. Jednym z nich jest rozwiązywanie sporów między krasnalami o starszość wiekiem.
 
 Napisz funkcję `wiek()`, która po otrzymaniu listy słowników zawierających imiona krasnali `'name'`
 oraz datę ich ustawienia `'date'` zwróci imię krasnala który został ustawiony najwcześniej.
@@ -21,7 +21,7 @@ Wyjście:
 
 
 Podpowiedź:
-Jeżeli znasz bibliotekę datetime możesz z niej skorzystać. Jeżeli nie – nic nie szkodzi. Porównaj oddzielnie rok, miesiąc i dzień. Pamiętaj o zamianie typów danych!
+Jeżeli znasz bibliotekę datetime możesz z niej skorzystać do łatwego porównywania dat. Jeżeli nie – nic nie szkodzi. Porównaj oddzielnie rok, miesiąc i dzień. Pamiętaj o zamianie typów danych!
 
 
 

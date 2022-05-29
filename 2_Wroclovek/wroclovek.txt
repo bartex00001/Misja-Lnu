@@ -1,6 +1,7 @@
 Wroclovek potrzebuje pomocy w obliczaniu reszty którą powinien wydać, gdy ktoś zakupi coś w jego sklepie.
 
-Napisz funkcję `reszta()` która otrzyma argumenty `(zaplacona_kwota, ilosc_magnesow, ilosc_dlugopisow, ilosc_pocztowek, ilosc_figurek)` i obliczy jaka reszta powinna zostać wydana.
+Napisz funkcję `reszta()`, która otrzyma argumenty `(zaplacona_kwota, ilosc_magnesow, ilosc_dlugopisow, ilosc_pocztowek, ilosc_figurek)` 
+i obliczy jaka reszta powinna zostać wydana.
 
 Koszt magnesu - 5,40 zł
 Koszt długopisu - 3,49 zł

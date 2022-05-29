@@ -1,6 +1,7 @@
 Krasnal dworcowy potrzebuje program, który automatycznie wypełni kartkę z przywitaniem i imieniem nowo poznanego krasnala.
 
-Napisz funkcję `przywitanie()` który do każdego elementu w przekazanej liście doda na początku tekst "Witaj ", a na końcu '!', a następnie zwróci zmodyfikowaną listę
+Napisz funkcję `przywitanie()`, która do każdego elementu w przekazanej liście doda na początku tekst 
+`"Witaj "`, a na końcu `'!'`, a następnie zwróci zmodyfikowaną listę
 
 
 

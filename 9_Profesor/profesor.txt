@@ -1,6 +1,6 @@
 Profesor chciałby wiedzieć czy z przystanku `a` można dostać się na przystanek `b`.
 
-Funkcja `check_connection` przyjmuje 3 argumenty:
+Funkcja `check_connection()` przyjmuje 3 argumenty:
 `przystanek_a`, `przystanek_b` oraz `polaczenia`.
 
 Pierwsze dwa argumenty to numery przystanków.
@@ -17,7 +17,7 @@ Słownik przechowuje BEZPOŚREDNIE połączenia między przystankami.
 Np. Jeżeli przystanek `a` znajduje się na liście `polaczenia[b]`
 to znaczy że z przystanku a jest bezpośrednie połączenie z przystankiem b.
 
-Uzupełnij funkcję `check_connection`, by jeżeli jest możliwe (pośrednie lub bezpośrednie) dostanie się z przystanku `a` na przystanek `b` to
+Uzupełnij funkcję `check_connection()`, by jeżeli jest możliwe (pośrednie lub bezpośrednie) dostanie się z przystanku `a` na przystanek `b` to
 funkcja powinna zwrócić `True`, w innym przypadku `False`.
 
 

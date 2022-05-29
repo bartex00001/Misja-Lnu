@@ -1,15 +1,17 @@
-Programmer must repair the broken code and needs your help.
+The Programmer must fix the broken code and needs your help.
 
-Function `username_validate` should assess whether `username` passed as an argument contains characters other than:
+Function `username_validate()` should assess whether `username` passed as an argument contains characters other than:
 - Lowercase letters
 - Uppercase letters
 - Numbers
-If `username` contains only listed characters, the function should return `True`, otherwise `False`.
+If `username` contains only listed characters, the function should return `True`, otherwise it sould return `False`.
 
-You are to find a bug in code and repair it.
+You are to find the bug in the code and to fix it.
+
 
 
 Example of correct assessment:
+
 Input:
 `Abcd145125`
 
@@ -21,6 +23,7 @@ Input:
 
 Output:
 `False`
+
 
 
 Starter code:

@@ -1,7 +1,9 @@
-Papa dwarf as the oldest dwarf in town has a lot of responsibilities. One of them is resolving disputes between dwarfs about their age, and more precisely – which one is older.
+Papa Krasnal, as the oldest dwarf in the city, has a lot of responsibilities. One of them is resolving disputes between dwarfs about their age or more precisely – which one spent more time in Wrocław.
 
-You are to write a function `wiek()` [pl -> age] , which will receive a list of dictionaries containing: dwarfs’ name as `’name’`, birth date as `’date’ and return the name of the oldest dwarf.
+You are to write a function `wiek()` [pl -> age], which will receive a list of dictionaries containing dwarfs’ names as `’name’` 
+and the date of when they moved to Wrocław as `’date’`, and will return the name of the oldest dwarf.
 In case of a draw return the name first in alphabetical order.
+
 
 
 Examples:
@@ -17,8 +19,9 @@ Output:
 'Rozkwietnik'
 
 
+
 Hint:
-If you know the datetime library you can use it. If not – that’s fine. You can compare year, moth and day separately. Remember to change variable types!
+If you know the datetime library you can use it for easy date comparison. If not – that’s fine. You can compare year, month and day separately. Remember to change variable types!
 
 
 

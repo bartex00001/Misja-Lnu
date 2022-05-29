@@ -1,15 +1,15 @@
-Wroclovek needs your help with calculating the change he has to give when someone buys items from his shop.
+Wroclovek needs your help with calculating the change he has to give when someone buys an items from his shop.
 
 You are to write a function `reszta()` [pl -> change], which will receive following parameters: 
-`(paid_sum, magnets_ammount, pens_ammount, postcard_ammount, figurine_ammount)`
-and calculate the change.
+`(paid_sum, magnets_amount, pens_amount, postcard_amount, figurine_amount)` and calculate the change.
 
-Magnet price – 5,40 zł
-Pen price – 3,49 zł
-Postcard price – 2,99 zł
-Dwarf figurine price – 10,35 zł
+Magnet price – 5,40 PLN
+Pen price – 3,49 PLN
+Postcard price – 2,99 PLN
+Dwarf figurine price – 10,35 PLN
 
 Return the result with an accuracy up to two decimal places.
+
 
 
 Hint:

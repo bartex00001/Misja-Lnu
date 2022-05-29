@@ -4,15 +4,14 @@ Napisz funkcję `onp()`, która wwykona obliczenia (odwrotnej notacji polskiej) 
 i zwróci `int` będący wynikiem tych obliczeń.
 
 Uwzględnij następujące działania:
-- dodawanie -> +
-- odejmowanie -> -
-- mnożenie -> *
-- dzielenie całkowite -> //
+-   Dodawanie -> +
+-   Odejmowanie -> -
+-   Mnożenie -> *
+-   Dzielenie całkowite -> //
 
 
 
 Przykład:
-
 Wejście:
 `'2 3 + 5 *'`
 Wyjście:
