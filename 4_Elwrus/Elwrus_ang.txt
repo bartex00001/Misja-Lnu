@@ -1,0 +1,33 @@
+Elwruś needs your help in decoding old punch-cards.
+
+You are to write a function `decrypt_punchcard(file_name)`, which will receive a name of a file containing punch-cards’ record.
+Punch-cards store data ONLY in ones and zeroes
+
+- Encoded message contains only lowercase letters
+- Characters are encoded in ASCII – one character is one byte
+- Punch-cards’ record is guaranteed to be valid, even if it has no actual meaning
+- Decoded message should be returned as text
+
+
+Example:
+`"a" = 01100001
+"b" = 01100010
+"c" = 01100011`
+
+File contents:
+`011000010110001001100011`
+
+Function output:
+`abc`
+
+
+
+Hint:
+After extracting 8-bit segments from the file, it’s best to use built-in functions.
+Conversion from binary to decimal can be done using: `int(binary_number, 2)`.
+A way to convert ASCII code to characters can be easily found in documentation :) [link to documentation somewhere here]
+
+
+Start code:
+def decrypt_punchcard(file_name):
+    return

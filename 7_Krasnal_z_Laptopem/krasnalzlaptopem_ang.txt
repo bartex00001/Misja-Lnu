@@ -1,0 +1,8 @@
+Dwarf with a laptop manages a database containing users’ data, but recently it stopped working.
+
+Before leaving work, one of the previous developers left a little “surprise” in the database
+and additionally deleted all the backups. Because of that, a lot of users reported wrong PESEL number on their profile. 
+You are to find corrupted record and delete it to avoid re-instantiating the whole database.
+
+Hint:
+PESEL of user nr. 45 is invalid. Do you know what it can cause?

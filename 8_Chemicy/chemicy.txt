@@ -1,0 +1,43 @@
+Chemicy na UWr i PWr rywalizują o stworzenie najdłuższej cząsteczki palindromowodoru.
+
+Twoim zadaniem jest implementacja funkcji `compare_palindromes()`, która zwróci długość najdłuższego palindromowodoru z PWR i UWR.
+Dwaj chemicy nie moga się doliczyć ich długości, dlatego poprosili cię o pomoc.
+
+- Nazwy plików z palindromowodorami zostaną przekazane w argumentach funkcji.
+- Związki chemiczne będą znajdować się w odzielnych linjkach (wiele w jednym pliku).
+- Nie każdy związek musi być palindromowodorem.
+- Funkcja powinna zwrócić krotkę zawierającą długość najdłuższego palindromowodoru PWR i UWR,
+  chemikom wystarczy długość - potrafią porównać dwie liczby całkowite.
+- Palindromowodory mogą składać się tylko z: węgla, wodoru, tlenu, azotu i fosforu (zapis jako jednoliterowe symbole chemiczne)
+- Związek jest palindromowodorem tylko jeżeli zapis występujących w nim atomów będzie taki sam, nie zależnie od kierunku zliczania.
+
+Przykład:
+Treść plików, odpowiednio:
+
+pwr_file:
+`COOH
+COOCHCOOC
+COOHCHHCOHHCHH`
+
+uwr_file:
+`CHHCOOH
+HHCHHCHH
+CHHH`
+
+Wyjście:
+`(9, 8)`
+
+
+Podpowiedź:
+Wszystkie linie z pliku (oddzielnie) można wczytać do listy używając wyrażenia 
+```
+with open(file_name) as file:
+    lines = file.readlines()
+```
+Na proste odwrócenie stringa też napewno jest jakiś sposób :)
+
+
+
+Kod Startowy:
+def compare_palindromes(pwr_file, uwr_file):
+    return (0,0)

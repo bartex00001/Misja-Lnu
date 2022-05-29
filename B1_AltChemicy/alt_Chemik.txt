@@ -1,0 +1,34 @@
+Chemicy na UWr i PWr rywalizują o stworzenie najdłuższej cząsteczki palindromowodoru.
+Okazało się jednak, że program który już dla nich napisałeś nie jest wystarczający, zostłeś więc poproszony o napisanie nowszej wersji, która będzie analizować grupy atomów przy węglu.
+
+Twoim zadaniem jest implementacja funkcji `compare_palindromes`, która zwróci długość najdłuższego palindromowodoru z PWR i UWR.
+Dwaj chemicy nie moga się doliczyć ich długości, dlatego poprosili cię o pomoc.
+
+- Nazwy plików z palindromowodorami zostaną przekazane w argumentach funkcji.
+- Związki chemiczne będą znajdować się w odzielnych linjkach (wiele w jednym pliku)
+- Nie każdy związek musi być palindromowodorem
+- Funkcja powinna zwrócić krotkę zawierającą ilośc węgla w najdłuższym palindromowodorze PWR i UWR,
+  to wystarczy bo chemicy potrafią porównywać liczby całkowite.
+- Zapis palindromowodoru składa się z grup węglowych (np. CHH) - każda zaczyna sie węglem.
+- Związek jest palindromowodorem, tylko jeżeli patrząc na niego obu stron, widzimy grupy w tej samej kolejności.
+
+Przykład:
+Treść plików, odpowiednio:
+
+pwr_file:
+CHHHCHNHHCHHH
+
+uwr_file:
+CHHHCHHCHHCOOH
+CHHHCHHH
+
+Wyjście:
+(3, 2)
+
+
+Podpowiedź:
+Zapis palindromowodoru można uprościć, zapisując kolejne grupy jako elementy listy.
+
+Kod Startowy:
+def compare_palindromes(pwr_file, uwr_file):
+    return (0,0)

@@ -1,0 +1,27 @@
+Papa dwarf as the oldest dwarf in town has a lot of responsibilities. One of them is resolving disputes between dwarfs about their age, and more precisely – which one is older.
+
+You are to write a function `wiek()` [pl -> age] , which will receive a list of dictionaries containing: dwarfs’ name as `’name’`, birth date as `’date’ and return the name of the oldest dwarf.
+In case of a draw return the name first in alphabetical order.
+
+
+Examples:
+
+Input:
+[{'name': 'Krwiopijca', 'date': '14.06.2011'}, {'name': 'Recyklinek', 'date': '18.10.2011'}, {'name': 'FATuś', 'date': '14.02.2012'}]
+Output:
+'Krwiopijca'
+
+Input:
+[{'name': 'Maślarz', 'date': '21.04.2018'}, {'name': 'Rozkwietnik', 'date': '14.08.2013'}, {'name': 'Profesor Miodek', 'date': '13.07.2016'}, {'name': 'Ostrowiak', 'date': '04.11.2015'}]
+Output:
+'Rozkwietnik'
+
+
+Hint:
+If you know the datetime library you can use it. If not – that’s fine. You can compare year, moth and day separately. Remember to change variable types!
+
+
+
+Starter code:
+def wiek(dwarfs):
+    return

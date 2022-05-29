@@ -1,0 +1,32 @@
+Elwruś potzrebuje pomocy w odczytaniu starych kart dziurkowanych.
+
+Napisz funkcję `decrypt_punchcard(file_name)`, która po otrzymaniu nazwy pliku zawierającego zapis punchcarda odkoduje go.
+Punchcardy przechowują dane TYLKO w postaci zer i jedynek.
+
+- Odszyfrowana wiadomość będzie składać się tylko z małych liter
+- Znaki na punchcardzie są zapisane w ASCII - każdy znak to jeden bajt
+- Zapis na punchcardzie zawsze będzie poprawny, nawet jeżeli jego treść pozornie nie ma sensu
+- Funkcja `decrypt_punchcard(file_name)` ma zwrócić odszyfrowaną wiadomość jako tekst
+
+
+Przykład:
+`"a" = 01100001
+"b" = 01100010
+"c" = 01100011`
+
+treść pliku:
+`011000010110001001100011`
+
+wyjście funkcji:
+`abc`
+
+
+Podpowiedź:
+Po wyodrębnieniu 8-znakowych fragmentów najlepiej użyć funkcji wbudowanych,
+by przekonwertować system binarny na dziesiętny używamy: `int(liczba_binarna, 2)`.
+By wiedzieć jaka funkcja zamienia kod ASCII na znak, odwiedzamy dokumentację :) [tu ling do dokumentacji pythona]
+
+
+Kod startowy:
+def decrypt_punchcard(file_name):
+    return

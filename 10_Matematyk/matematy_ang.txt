@@ -1,0 +1,35 @@
+Mathematician received calculations from the Computer Science Institute written int Reverse Polish Notation. Help him and calculate the value of given expressions.
+
+You are to write a function `onp()`, which will perform the calculations (written in reverse polish notation) {LINK: https://en.wikipedia.org/wiki/Reverse_Polish_notation (dać na niebiesko tekst)}
+and afterwards return the value as an `int`.
+
+Possible operations:
+-	Addition -> +
+-	Subtraction -> -
+-	Multiplication -> *
+-	Integer division -> //
+
+
+Example:
+Input:
+`'2 3 + 5 *'`
+Output:
+`25`
+
+Input:
+`'2 7 + 3 // 14 3 − 4 * +'`
+Output:
+`47`
+
+
+Important:
+Do not stop the program from dividing by zero, let it do so.
+
+
+Hint:
+Read the article on Wikipedia carefully. Maybe there’s an easy algorithm allowing for calculation of RPN? 
+
+
+Starter code:
+def onp(text):
+    return

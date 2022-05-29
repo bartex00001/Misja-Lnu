@@ -1,0 +1,22 @@
+Wroclovek needs your help with calculating the change he has to give when someone buys items from his shop.
+
+You are to write a function `reszta()` [pl -> change], which will receive following parameters: 
+`(paid_sum, magnets_ammount, pens_ammount, postcard_ammount, figurine_ammount)`
+and calculate the change.
+
+Magnet price – 5,40 zł
+Pen price – 3,49 zł
+Postcard price – 2,99 zł
+Dwarf figurine price – 10,35 zł
+
+Return the result with an accuracy up to two decimal places.
+
+
+Hint:
+Round to two decimal places using `round(value, 2)` method 
+
+
+Starter code:
+def reszta(paid_sum, magnets_ammount, pens_ammount, postcard_ammount, figurine_ammount):
+    return
+

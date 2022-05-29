@@ -1,0 +1,38 @@
+Matematyk otrzymał z instytutu informatyki obliczenia zapisane w odwrotnej notacji polskiej. Pomóż mu i oblicz wartość podanych wyrażeń.
+
+Napisz funkcję `onp()`, która wwykona obliczenia (odwrotnej notacji polskiej) {LINK: https://pl.wikipedia.org/wiki/Odwrotna_notacja_polska (dać na niebiesko tekst)}
+i zwróci `int` będący wynikiem tych obliczeń.
+
+Uwzględnij następujące działania:
+- dodawanie -> +
+- odejmowanie -> -
+- mnożenie -> *
+- dzielenie całkowite -> //
+
+
+
+Przykład:
+
+Wejście:
+`'2 3 + 5 *'`
+Wyjście:
+`25`
+
+Wejście:
+`'2 7 + 3 // 14 3 − 4 * +'`
+Wyjście:
+`47`
+
+Uwaga:
+Nie wyłapuj błędu dzielenia przez zero. Jeżeli program będzie próbował dzielić przez zero pozwól mu na to.
+
+
+
+Podpowiedź:
+Przeczytaj uważnie artykuł o odwrotnej notacji polskiej na Wikipedii. Być może znajduje się tam algorytm powalający na łatwe obliczanie wartości wyrażeń?
+
+
+
+Kod startowy:
+def onp(text):
+    return

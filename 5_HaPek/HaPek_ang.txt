@@ -1,0 +1,41 @@
+HaPek needs your help in implementing a program which will evaluate the correctness of FizzBuzz.
+FizzBuzz is a common recruitment challenge in IT. It allows for assessing the aesthetics of applicants code.
+
+FizzBuzz program should print numbers from given interval, but when:
+- the number is divisible by 5, print Fizz
+- the number is divisible by 3, print Buzz
+- the number is divisible by 5 and 3, print FizzBuzz
+You are to write a testing program for FizzBuzz. 
+You will be given a vector of pairs, each holding `int`, and `string` - accordingly number and the answer. 
+Your program should return `true` if all entries are correct, otherwise return false.
+
+
+Examples:
+For data:
+`{
+    {3, "Fizz"},
+    {5, "Buzz"}
+}`
+Program should return `true`.
+
+For data:
+`{
+    {15, "FizzBuzz"},
+    {7, "Fizz"}
+}
+Program should return `false`.
+
+
+Hint:
+It’s best to analyse each answer separately. Read the number, create your answer and compare it to the one in vector.
+
+
+Starter code:
+#include <vector>
+#include <string>
+
+
+bool testFizzBuzz(std::vector<std::pair<int, std::string> >& userAnswers)
+{
+    return true;
+}

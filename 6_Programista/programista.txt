@@ -1,0 +1,38 @@
+Programista musi naprawić zepsuty kod i potrzebuje twojej pomocy
+
+Funkcja `username_validate` powinna sprawdzać czy podany w argumencie `username` NIE zawiera innych znaków niż:
+- małe litery
+- duże litery
+- cyfry
+
+Jeżeli argument `username` zawiera tylko podane znaki, funkcja powinna zwrócić `True`,
+w innym przypadku powinna zwrócić `False`
+
+Znajdź błąd w programie i napraw go.
+
+
+
+Przykład poprawnego działania:
+
+Wejście:
+`Abcd145125`
+
+Wyjście:
+`True`
+
+Wejście:
+`Abc d1&%$&`
+
+Wyjście:
+`False`
+
+
+
+Kod startowy:
+
+def username_validate(username):
+    allowed_characters = "qwertyuiopasdfghjklzxcvbnm1234567890"
+    for character in username:
+        if not character in allowed_characters:
+            return False
+    return True

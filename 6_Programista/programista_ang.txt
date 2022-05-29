@@ -1,0 +1,32 @@
+Programmer must repair the broken code and needs your help.
+
+Function `username_validate` should assess whether `username` passed as an argument contains characters other than:
+- Lowercase letters
+- Uppercase letters
+- Numbers
+If `username` contains only listed characters, the function should return `True`, otherwise `False`.
+
+You are to find a bug in code and repair it.
+
+
+Example of correct assessment:
+Input:
+`Abcd145125`
+
+Output:
+`True`
+
+Input:
+`Abc d1&%$&`
+
+Output:
+`False`
+
+
+Starter code:
+def username_validate(username):
+    allowed_characters = "qwertyuiopasdfghjklzxcvbnm1234567890"
+    for character in username:
+        if not character in allowed_characters:
+            return False
+    return True
