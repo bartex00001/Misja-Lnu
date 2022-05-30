@@ -1,2 +1,0 @@
-def onp(text):
-    return

@@ -1,0 +1,8 @@
+onp.py
+widoczny: TAK
+do edycji: TAK
+
+output: TAK
+testy: TAK
+liczba testów: 20
+min_zaliczonych: 20

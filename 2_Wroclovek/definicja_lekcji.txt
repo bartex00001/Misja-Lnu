@@ -1,8 +1,0 @@
-reszta.py
-widoczny: TAK
-do edycji: TAK
-
-output: TAK
-testy: TAK
-liczba testów: 5
-min_zaliczonych: 5

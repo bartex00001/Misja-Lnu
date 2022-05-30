@@ -1,2 +1,0 @@
-def wiek(krasnale):
-    return

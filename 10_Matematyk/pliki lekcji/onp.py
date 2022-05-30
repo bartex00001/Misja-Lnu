@@ -1,0 +1,2 @@
+def onp(text):
+    return

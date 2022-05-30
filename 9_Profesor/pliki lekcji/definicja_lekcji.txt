@@ -1,0 +1,12 @@
+test.py
+widoczny: NIE
+do edycji: NIE
+
+check_connection: 
+widoczny: TAK
+do edycji: TAK
+
+output: TAK
+testy: TAK
+liczba_testów: 20
+
