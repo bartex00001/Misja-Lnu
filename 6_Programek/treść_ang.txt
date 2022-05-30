@@ -47,6 +47,9 @@ Output:
 False
 
 
+Hint:
+The task requires you to modify the starter code so that it meets the criteria listed in the red box.
+
 
 Starter code:
 def username_validate(username):

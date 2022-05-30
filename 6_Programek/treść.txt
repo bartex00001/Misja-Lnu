@@ -38,6 +38,9 @@ Wyjście:
 False
 
 
+Podpowiedź:
+Zadanie wymaga modyfikacji kodu startowego by działał zgodnie ze specyfikacją (czerwona ramka).
+
 
 Kod startowy:
 
