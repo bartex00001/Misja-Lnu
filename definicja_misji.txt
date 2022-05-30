@@ -60,6 +60,7 @@ Lekcje:
 	Folder: 11_Koniec
 	Rodzaj: obowiązkowe
 	Zadanie: Lekcja z grafiką
+	Etykietki: WROCLAWSKI_TURYSTA
 
 
 
