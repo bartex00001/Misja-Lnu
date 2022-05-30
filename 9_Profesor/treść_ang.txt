@@ -45,7 +45,8 @@ Third argument is a dictionary formated like so:
 	...
 }
 
-The dictionary stores only direct connections. This means that if stop a can be found in connections[b] direct connection exists.
+The dictionary stores only direct connections. This means that if stop a can be found in connections[b] direct connection to stop b exists.
+
 You are to write the check_connection() function, so it returns True if there is a direct or indirect connection from stop_a to stop_b.
 Otherwise, the function should return False.
 
