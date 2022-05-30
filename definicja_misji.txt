@@ -64,7 +64,7 @@ Lekcje:
 
 
 Informacje dodatkowe:
-- Wizualizacja znajduje się w folderze "Wizualizacja", w formatach: .pdf .psd .afpub
+- Wizualizacja znajduje się w folderze "Wizualizacja", w formatach: .pdf  .afpub
 - Jeżeli nazwa pliku zawiera sufiks "_ang", to plik dotyczy angielskiej wersji misji.
 - Struktura folderu z lekcją:
 	pliki: "treść.docx" i "treść_ang.docx" zawierają samą historię zadania z formatowaniem (bez czerwonej ramki).
