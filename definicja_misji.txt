@@ -79,6 +79,7 @@ Informacje dodatkowe:
 		Pliki te występują tylko wtedy gdy ma to sens (nie na lekcjach z grafiką i sql)
 
 - Uwagi dotyczące pojedynczych misji będą się znajdować w pliku: "definicja_lekcji.txt"
+- Grafiki załączone są w formacie .png; w razie potrzeby możemy je zamienić ich format (np. .svg)
 
 
 Osiągnięcia:
