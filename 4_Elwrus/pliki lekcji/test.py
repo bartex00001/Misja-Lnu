@@ -4,7 +4,7 @@ import random
 FILE_NAME = "punchcard.txt"
 NUMBER_OF_RANDOM_TESTS = 5
 
-SUCCESS_MESSAGE = "Udało się!" # TODO: wymyśleć zakodowaną wiadomość
+SUCCESS_MESSAGE = "Udało się!"
 FAIL_MESSAGE = "Coś chyba jest nie tak, spróbuj jeszcze raz"
 
 def generate_punchcard_message():

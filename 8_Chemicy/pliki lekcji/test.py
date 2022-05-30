@@ -5,7 +5,7 @@ FILE_NAME_PWR = "pwr.txt"
 FILE_NAME_UWR = "uwr.txt"
 NUMBER_OF_RANDOM_TESTS = 10
 
-SUCCESS_MESSAGE = ""
+SUCCESS_MESSAGE = "Działa!\nTylko co dalej..."
 FAIL_MESSAGE = "Huh? To przecież niemożliwe!\nCzy twój program napewno działa poprawnie?"
 
 ATOM_LIST = ['C', 'H', 'N', 'O', 'F']

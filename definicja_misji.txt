@@ -1,0 +1,8 @@
+Nazwa misji: KrasCon 2022
+
+Osiągnięcia:
+tytuł: Wrocławski turysta
+opis: Za odnalezienie tytułowego wydażenia w misji "KrasCon 2022"
+nazwa etykietki: WROCLAWSKI_TURYSTA
+liczba_etykietek: 1
+plik: wroclawski_turysta.png

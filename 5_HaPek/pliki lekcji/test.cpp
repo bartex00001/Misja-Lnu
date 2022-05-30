@@ -6,7 +6,7 @@
 constexpr auto NUMBER_OF_RANDOM_TESTS = 10;
 constexpr auto FIZZ_BUZZ_LENGTH = 10;
 
-constexpr auto SUCCESS_MESSAGE = "Wszystko działa!\nGratulacje!";
+constexpr auto SUCCESS_MESSAGE = "Działa!\nCiekawe jak idzie HaPekowi...";
 constexpr auto FAIL_MESSAGE = "Coś chyba nie działa...\nPopraw program i spróbuj ponownie";
 
 std::string getAnswerFor(int number)
