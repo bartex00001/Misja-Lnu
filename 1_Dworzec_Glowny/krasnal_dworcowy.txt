@@ -1,0 +1,19 @@
+Krasnal dworcowy potrzebuje program, który automatycznie wypełni kartkę z przywitaniem i imieniem nowo poznanego krasnala.
+
+Napisz funkcję `przywitanie()`, która do każdego elementu w przekazanej liście doda na początku tekst 
+`"Witaj "`, a na końcu `'!'`, a następnie zwróci zmodyfikowaną listę
+
+
+
+Podpowiedź:
+Stwórz nową pustą listę i dodawaj do niej wartości korzystając z metody `.append()`
+```
+lista = []
+lista.append("wartość")
+```
+
+
+
+Kod startowy:
+def przywitanie(lista_imion):
+    return
