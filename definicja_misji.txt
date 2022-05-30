@@ -1,4 +1,66 @@
 Nazwa misji: KrasCon 2022
+Ilość lekcji: 12
+Lekcje:
+1.	Tytuł: KrasCon
+	Folder: 0_KrasCon
+	Rodzaj: obowiązkowe
+	Zadanie: Lekcja z grafiką
+
+2.	Tytuł: Dworzec Główny
+	Folder: 1_Dworzec_Glowny
+	Rodzaj: obowiązkowe
+	Zadanie: python
+
+3.	Tytuł: Wroclovek
+	Folder: 2_Wroclovek
+	Rodzaj: obowiązkowe
+	Zadanie: python
+
+4.	Tytuł: Papa Krasnal
+	Folder: 3_Papa_Krasnal
+	Rodzaj: obowiązkowe
+	Zadanie: Lekcja z grafiką
+
+5.	Tytuł: Elwruś
+	Folder: 4_Elwrus
+	Rodzaj: obowiązkowe
+	Zadanie: python
+
+6.	Tytuł: HaPek
+	Folder: 5_HaPek
+	Rodzaj: obowiązkowe
+	Zadanie: c++
+
+7.	Tytuł: Programek
+	Folder: 6_Programek
+	Rodzaj: obowiązkowe
+	Zadanie: python
+
+8.	Tytuł: Krasnal z laptopem
+	Folder: 7_Krasnal_z_Laptopem
+	Rodzaj: obowiązkowe
+	Zadanie: sql
+
+9.	Tytuł: Chemicy
+	Folder: 8_Chemicy
+	Rodzaj: obowiązkowe
+	Zadanie: python
+
+10.	Tytuł: Profesor
+	Folder: 9_Profesor
+	Rodzaj: obowiązkowe
+	Zadanie: python
+
+11.	Tytuł: Matematyk
+	Folder: 10_Matematyk
+	Rodzaj: obowiązkowe
+	Zadanie: python
+
+11.	Tytuł: Koniec
+	Folder: 11_Koniec
+	Rodzaj: obowiązkowe
+	Zadanie: Lekcja z grafiką
+	Etykietki: WROCLAWSKI_TURYSTA
 
 Osiągnięcia:
 tytuł: Wrocławski turysta
