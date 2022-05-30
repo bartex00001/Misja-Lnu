@@ -1,0 +1,56 @@
+While taking you to him Wroclovek tells you about his boss – one they call Papa Krasnal. You were told his name literally means “The Father of all dwarfs”, which is ironic considering he is not your father. He tells you that Papa was an active member of The Orange Alternative - an anti-communist movement in the ‘80 and that to this day Papa remains the most Politically active dwarf. Which is concerning. Dwarfs shouldn't be political. Politics is boring and usually doesn’t concern dwarfs at all. Wait… politically engaged dwarf, everybody calls him Boss or father, and you slighted Wroclovek… Is this some local mafioso? You start to get worried, but there’s nowhere to escape, and, as you already know, Wroclovek runs faster than you. You really should have gone on a diet…
+You do the only thing that can get you out of this mess. You fall to your knees and start begging your newfound “friend”.
+
+“Please, please, don’t take me to him! I’ll never insult anyone else ever! Please! I have a wife, two kids, and student loans so high that they can’t possibly be paid off! I’ll do anything just, please, don’t take me to your boss!”
+
+You started shedding fat, crocodile tears. You never were the best actor but maybe it will be enough to convince him?
+
+“Please!” you cry with sudden realization, “I have a dog! You love dogs, right? You do not want Fifi to be sad, do you? You’re not a monster! Please! You have to let me go, such a gentleman would never do anything to harm a dog, right?”
+
+You faked some more tears. Was it working? You look over at your captor and you see him laughing. But he does not just laugh! He is hiccuping and rolling on the floor, it’s a miracle he can breathe! Maybe you should have tried to become an actor a little harder? Well, it’s of no matter now, you have to get away before he can stand up agai–
+
+Too late. Another dwarf helped him up. This one looks different than most that you have met. He has no beard and has such a posture that even superdwarf would look like a baby next to him.
+
+You freeze.
+
+After a second Wroclovek, who finally managed to calm down again, addresses the newcomer.
+
+“Hey, boss!” he says. “This is a… friend of mine. He’s looking for KrasCon? It’s meant to be some sort of event or a party for computer dwarfs in the city. You ever heard of it?”
+
+“Can’t say I have,” you hear a gruff voice answer. “But I do know one dwarf that used to work at Elwro, he may know something more…”
+
+“You,” the towering figure looks over in your direction. “I’ll take you to him, but I’ve got to finish my job first. I’ve got a ton of paperwork to look over and sort. If you can do it for me, or better yet, automate it. Then we’ll talk.”
+
+It doesn’t seem like you have a choice, does it? Click, clack, coding time!
+
+
+Papa Krasnal, as the oldest dwarf in the city, has a lot of responsibilities. One of them is resolving disputes between dwarfs about their age or more precisely – which one spent more time in Wrocław.
+
+You are to write a function wiek() [pl -> age], which will receive a list of dictionaries containing dwarfs’ names as ’name’ 
+and the date of when they moved to Wrocław as ’date’, and will return the name of the oldest dwarf.
+In case of a draw return the name first in alphabetical order.
+
+
+
+Examples:
+
+Input:
+[{'name': 'Krwiopijca', 'date': '14.06.2011'}, {'name': 'Recyklinek', 'date': '18.10.2011'}, {'name': 'FATuś', 'date': '14.02.2012'}]
+Output:
+'Krwiopijca'
+
+Input:
+[{'name': 'Maślarz', 'date': '21.04.2018'}, {'name': 'Rozkwietnik', 'date': '14.08.2013'}, {'name': 'Profesor Miodek', 'date': '13.07.2016'}, {'name': 'Ostrowiak', 'date': '04.11.2015'}]
+Output:
+'Rozkwietnik'
+
+
+
+Hint:
+If you know the datetime library you can use it for easy date comparison. If not – that’s fine. You can compare year, month and day separately. Remember to change variable types!
+
+
+
+Starter code:
+def wiek(dwarfs):
+    return

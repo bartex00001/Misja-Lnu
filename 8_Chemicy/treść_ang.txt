@@ -1,0 +1,61 @@
+Grafika: palindormowodor.png
+
+Wrocław University of Science and Technology, Politechnika Wrocławska (A funny word. Politechnika.), is one of the multiple universities in Wrocław. Its campus isn’t easy to navigate, but that won’t stop you! The institute of informatics must be somewhere close. You found a map with all the buildings listed, but it’s in Polish, so no luck here. In the end, you decided to just enter one of the buildings. You sat down, defeated, and just when you were going to begin contemplating your life choices, you overheard some people talking behind a closed door.
+
+“Finally!” you heard someone shout. “After all those years of heavy work, we managed to synthesize our first hydropalindrome molecule! Just one pill of the stuff will make you lose weight, and some studies say that prolonged exposure to longer molecules can cure cancer! Think of all the possibilities it will bring to humankind. And dwarfkind too! Oh, those apothecaries from UWr will finally shut up! And ours is even longer than theirs! …I think!”
+
+“…You think?” another person answered in a composed way.
+
+“Well,” you hear the first voice say, “I didn’t count its length yet. And before you say anything, it’s not that I didn’t try. You know I have dyslexia. Checking if it was symmetrical was hard enough, with everything blurred together. Counting is even worse.”
+
+“Well, I have dyscalculia, so I can’t count them either, can I. If only some IT guys could write us up some software to count it for us, but from what I heard they all left for KrasCon…”
+
+That piqued your interest! KrasCon! These guys can help you! You barge into the room and say:
+
+“Gentlemen. I heard you mention KrasCon. Do you perchance know where it takes place? Will you take me there? I’ll write the thing for you, no worries…”
+
+
+Chemists from UWr and PWr compete to create the longest hydropalindrome.
+
+You are to write the compare_palindromes() function,
+which will return the length of the longest hydropalindrome of both UWr’s and PWr’s chemists.
+
+- File names will be passed as arguments to the function
+- Each compound will take one line in file (many compounds in one file)
+- Not all compounds will be hydropalindromes
+- Function must return a tuple containing the lengths of the longest hydropalindromes of both UWr’s and PWr’s chemists.
+- Hydropalindromes are made of: carbon, hydrogen, oxygen, nitrogen and phosphorus (all represented by one-character chemical symbols)
+- Compound is a hydropalindrome if the order of elements is the same while reading from left and from right
+
+
+Example:
+File contents, respectively:
+
+pwr_file:
+COOH
+COOCHCOOC
+COOHCHHCOHHCHH
+
+uwr_file:
+CHHCOOH
+HHCHHCHH
+CHHH
+
+Output:
+(9, 8)
+
+
+
+Hint: 
+All lines of the file can be loaded into a list using following expression:
+with open(file_name) as file:
+    lines = file.readlines()
+
+and there surely is a way to easily reverse a string :)
+
+
+
+Starter code:
+def compare_palindromes(pwr_file, uwr_file):
+    return (0, 0)
+

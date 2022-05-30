@@ -1,0 +1,29 @@
+Krasnal Programista podziękował ci za pomoc. W drodze opowiadał jak paskudnym szefem jest Krasnal z Laptopem. Jak to nie otrzymał podwyżki od lat. Mówił coś o byciu arogancką szują i innych takich. Po tym wszystkim bałeś się spotkać jego szefa. Gdy już się spotkaliście patrzyłeś PMowi na nogi. Wszystko tylko nie twarz. Bałeś się mu spojrzeć w twarz.
+-	Dobra, a ciebie co tu sprowadza? 
+-	ymmm ja, ten, no, przyszedłem z lasu, jestem w mieście od niedawna iii chciałbym wie pan…
+Zaschło ci w gardle ostatnie dwa słowa były ledwo słyszalne.
+-	Chciałbym dostać się na KrasCon
+Zadziwiające, że zapamiętałeś tą nazwę jeszcze z pierwszego zadania.
+-	Wszystko w porządku? Nie wyglądasz najlepiej… Czy to Programista? Co ci on nagadał? Wiesz, jeśli ci groził to naprawdę możesz to powiedzieć.
+Wyczuwasz w jego głosie serdeczny ton. Ewidentnie bawi go twoja postawa. Zauważyłeś, że chyba jednak nie jest to najgroźniejszy człowiek na świecie.
+-	Yyh nie po prostu on powiedział, że Pan… że Pan… 
+Krasnal z Laptopem westchnął. Cokolwiek się stało nie było to po raz pierwszy.
+-	Usiądź. Zaraz się dowiem. Swoją drogą - kawy czy herbaty?
+-	Dziękuję. 
+Tak właściwie to jesteś bardzo spragniony. Po prostu przez ten stres zapomniałeś powiedzieć czego byś chciał. Wyszedł z pokoju, słyszysz jak na korytarzu dzwoni mu telefon. Po chwili wraca. I wraz z tym powrotem padają słowa: 
+-	Wybacz, telefon naglił. Ta cała impreza jest organizowana przez polibudę. Powinieneś się popytać profesorów, oni coś będą wiedzieć.
+Westchnąłeś z ulgą. Pierwszy krasnal, który jeszcze o nic cię nie poprosił.
+-	Tak właściwie to jest coś o co bym cię prosił. Mamy taki mały problem z bazą danych. I tak między nami, to ten nasz programista od SQL to zatrudniony chyba był po znajomości - zaśmiał się łapiąc się za szyję - mógłbyś tak, wiesz, przejrzeć co jest nie teges? Może coś zauważysz…
+-	Wiesz, naprawdę dzięki ale nie mam za bardzo czasu
+-	Chcesz zostać informatykiem prawda? Wiesz, jak ci wyjdzie to kto wie. Może ktoś w dyrekcji usłyszy o takim zdolnym młodym krasnalu… - ostatnie zdanie powiedział z uprzejmym uśmiechem.
+No nie, teraz wszedł ci na ambicje. KrasCon jest bardzo istotną imprezą informatyczną. To jest pewien prestiż. Ale nawet jak się spóźnisz nic się nie stanie, prawda? Prawda?
+
+
+Krasnal z Laptopem zarządza bazą danych zawierającą dane użytkowników, ale ostatnio przestała ona działać.
+
+Jeden z byłych programistów przed odejściem z pracy pozostawił w bazie danych "psikusa"
+i usunął wszystkie backupy przez co wielu użytkowników widzi na swojej stronie błędny nr PESEL.
+Znajdź i usuń wadliwy rekord z bazy danych, aby uniknąć potrzeby usuwania i stawiania bazy danych od nowa.
+
+
+Podpowiedź: Użytkownik 45 posiada wadliwy PESEL, czy wiesz co może on powodować?

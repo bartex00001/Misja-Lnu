@@ -1,0 +1,60 @@
+The professor told you where the KrasCon is taking place and, surprisingly enough, did not say much else. He must have figured out by now that you weren’t listening. So, you went to the Mathematical Institute of UWr. Right next to where you were at PWr. Why are the buildings of the University sprawled all across the city? Well, you will have time to think about that later. Now there’s one last challenge ahead of you. You really hope HaPek was joking when he said that not everybody is allowed in. You see a dwarf guarding the door like Cerberus guarding the gates of hell. Only it’s not hell. It’s the entrance to the convention. But it’s too late to back down now! The only way is forward, towards a career of never-ending possibilities.
+
+“Hello,” you say to the guard. He looks like some sort of mathematician. “Is this the entrance to the KrasCon? You really should advertise the location better. Here are my papers by the way.”
+
+“What do you mean ‘advertise the location better’? It’s posted all across the Krasbook and other social media?” he says while looking your documentation over. You freeze. Could it really have been that simple? It’s the 21st Century! The internet should have been the first place you check! Why, oh why didn’t you think about it?!
+
+“You're not on the list,” the dwarf says after a while.
+
+“List?”
+
+“The list of people allowed in.”
+
+“But I need to get in!” you cry in despair.
+
+“Listen,” he says quietly, motioning you to get closer. “Between you and me, I frankly don’t care who gets in. I didn’t ask for this job, ok? I was assigned it because I work here and I had a free afternoon, so if you can convince me to let you in, I will turn a blind eye on the list for a second.”
+
+“I–   how?” you ask.
+
+“I recently got some data from the IT guys, and they decided it would be funny if they gave me all the calculations in Reverse Polish Notation. If you calculate the actual value of all those expressions, I'll let you pass”
+
+This whole RPN is the only thing that is stopping you from your goal. Surely you won’t let it beat you?
+
+
+
+The Mathematician received calculations from the Computer Science Institute written in the Reverse Polish Notation. Help him and calculate the value of given expressions.
+
+You are to write a function onp(), which will perform the calculations (written in reverse polish notation) {LINK: https://mathworld.wolfram.com/ReversePolishNotation.html (dać na niebiesko tekst)}
+and afterwards return the value as an int.
+
+Possible operations:
+-	Addition -> +
+-	Subtraction -> -
+-	Multiplication -> *
+-	Integer division -> //
+
+
+
+Example:
+Input:
+'2 3 + 5 *'
+Output:
+25
+
+Input:
+'2 7 + 3 // 14 3 − 4 * +'
+Output:
+47
+
+
+Important:
+Do not stop the program from dividing by zero, let it do so.
+
+
+Hint:
+Read the attached article carefully. Maybe there’s an easy algorithm allowing for calculation of RPN? 
+
+
+Starter code:
+def onp(text):
+    return

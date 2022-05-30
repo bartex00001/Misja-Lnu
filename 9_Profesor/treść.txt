@@ -1,0 +1,69 @@
+Chemicy patrzą się na ciebie z podziwem. Nie pomaga to niezręcznej ciszy jaka wywiązała się w związku z tym. Nie zauważyłeś tego, ale od samego początku twoja pomoc jest dla nich bardzo niezręczna. Po chwili ten niższy (który to? nie mam pojęcia) wstaje i mówi:
+-	Naprawdę dziękujemy ci za to, ale jakby to rzec... Nie wiemy gdzie to. Widzisz nawet cię nie prosiliśmy o to i trochę głupio było nam ci przerwać.
+Wspaniale. Po prostu wspaniale. Sfrustrowany wyszedłeś. Człowiek się stara przez całe życie dojść w jedno miejsce a tu pojawiają się takie pajace! 
+Jednak któż to? Toż to jakiś profesor.
+-	Yyh dzień dobry, wie może pan, gdzie jest impreza krasnali. Miało być na politechnice w każdym bądź razie.
+-	Aaah ta impreza krasnali? To dla was informatyków czyż nie? Oczywiście że wiem.
+W tym momencie powinieneś był uciec. To co nastąpiło potem ztraumatyzowało cię do końca życia.
+-	Widzisz ja bardzo szanuję was, tworzycie przyszłość. Dzięki takim jak wy my krasnale ukrywamy swoją wyższość technologiczną przed tymi… Ludźmi.
+-	Dziękuję bardzo mi miło… Czekaj, co powiedziałeś?
+-	Nie musisz przede mną ukrywać. Dobrze wiem co robicie. Powiedz mi jak stworzyliście CGI z lądowania na księżycu? To musiało być ogromne przedsięwzięcie tak tworzyć tak dobrze wyglądającą rakietę, a potem księżyc. Ale zabawny pomysł z tą grawitacją. Przecież każdy dobrze wie, że ziemia jest płaska i grawitacja jest niezależna od masy planety. Gdyby tak było to zobacz - tyle kopiemy już tą ziemię. I co? Grawitacja ani ruszyła. Nadal 9.81m/s2. Taak tak od zawsze było. Krasnale przewyższały ludzi we wszystkim. Od kiedy stworzyliśmy krasnale atomowe robiliśmy wszystko by zachować swoją supremację rasową. Weź pod uwagę chociaż wietnam - Wszyscy dobrze wiemy, że to siły Krascongu robiły wszystko by zatrzymać ekspansjonizm Amerykanów. Co za idiota pomyślałby o ludziach kryjących się w dżungli? Spójrz na takiego człowieka, ale głupi. No jak on ma się ukryć?
+Ten krasnal jest… Pomylony? Jednak mówi to z takim przekonaniem, że mu zaczynasz wierzyć. Zadałeś mu więc jedno pytanie.
+-	A ty, czego uczysz?
+-	Yyyh Filozofii. Ale nie ma to znaczenia. Przeczytałem wypowiedzi wielu wybitnych, wykształconych krasnali. Oni wiedzą wszystko czego nie wie zwykły człowiek.
+-	A gdzie można takie wypowiedzi przeczytać? 
+-	Internet. Jest taka strona…
+Filozof. Nie mam nic do filozofów, ale to wszystko tłumaczy. 
+-	Skoro taki zdolny programista, że idziesz na Imprezę to zrób mi jedno. Muszę wiedzieć, czy istnieje połączenie z jednego przystanku na drugi. mógłbyś tak,wiesz…
+-	Powiesz mi, gdzie jest ta impreza? I nie powiesz nic więcej?
+Krasnal profesor przytaknął. Uczciwa oferta.
+
+
+Profesor chciałby wiedzieć czy z przystanku a można dostać się na przystanek b.
+
+Funkcja check_connection() przyjmuje 3 argumenty:
+przystanek_a, przystanek_b oraz polaczenia.
+
+Pierwsze dwa argumenty to numery przystanków.
+
+Trzeci argument jest słownikiem w formacie:
+{
+    ...
+    numer_przystanku: [ numery_połączonych_przystanków ]
+    ...
+}
+
+Słownik przechowuje BEZPOŚREDNIE połączenia między przystankami.
+Np. Jeżeli przystanek a znajduje się na liście polaczenia[b]
+to znaczy że z przystanku a jest bezpośrednie połączenie z przystankiem b.
+
+Uzupełnij funkcję check_connection(), by jeżeli jest możliwe (pośrednie lub bezpośrednie) dostanie się z przystanku a na przystanek b to
+funkcja powinna zwrócić True, w innym przypadku False.
+
+Przykłady: 
+
+Wejście:
+przystanek_a = 1
+przystanek_b = 3
+polaczenia =
+{
+    1: [2],
+    2: [1, 3],
+    3: [2],
+}
+
+Wyjście:
+True
+
+Z przystanku 1 można pojechać na przystanek 2, z którego można dostać się na przystanek 3
+
+
+
+Podpowiedź:
+Algorytm powinien rekurencyjnie sprawdzać połączenia każdego kolejnego przystanku, zaczynając od przystanku `a` i zatrzymać
+działanie po odnalezieniu przystanka `b` lub odwiedzeniu wszystkich możliwych przystanków. 
+
+
+Kod startowy:
+def check_connection(przystanek_a, przystanek_b, polaczenia):
+	return true

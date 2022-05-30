@@ -1,0 +1,48 @@
+While he was taking you to his friend, Papa started reminiscing about his activist days, and the things he got up to with his friends from the Orange Alternative. In PRL protesting was illegal, so they instead organized happenings that ridiculed the government, army, or law enforcement. He talked about the time when they all, even humans, dressed up like garden gnomes, and the communist militia was ordered to arrest “the red”, or when they built a tank out of cardboard and stormed a local pub. Oh, those good old days…
+
+When you arrived at your destination, you were only too happy to finally get rid of this old man and his stories. The dwarf that greeted you was … another old man.
+
+Papa however did not seem to notice your apprehension.
+
+“It’s been too long Elwruś!” he addressed the other dwarf, “Sorry for showing out of nowhere, but this young one,” he says shoving you forward, “is looking for some sort of computer event? What was it called?”
+
+“KrasCon,” you helpfully supply.
+
+“KrasCon huh?” Elwruś says. “Hmm, I don’t know anything about it myself, but I think I heard my grandson mention it once or twice. I can take you to him, but can you do something for me first? I wanted him to do it, but he’s constantly busy these days. You see I’ve got a lot of these old punch cards for Odra computers lying around the place, I think some of them might even have the source code of original Wolfenstein, modified to run on Odra computers. Can you make me some software to convert their contents to plain text? I think I’ll manage with the rest.”
+
+The old dwarf continued to talk about his days of software piracy, but you did not pay attention to him, the same way you’re not paying attention to me. Do people even read this or am I just doing this for myself? Well, it’s too late to turn back. So… Punch cards. Wolfenstein. Coding.
+
+
+Elwruś needs your help in decoding old punch cards.
+
+You are to write a function decrypt_punchcard(), which will receive the name of a file containing punch cards’ record.
+Punch cards store data ONLY using ones and zeroes
+
+- Encoded message contains only lowercase letters
+- Characters are encoded in ASCII – one character is one byte (eight ones or zeroes)
+- Punch cards’ record is guaranteed to be valid, even if it has no actual meaning
+- Decoded message should be returned as text
+
+
+Example:
+"a" = 01100001
+"b" = 01100010
+"c" = 01100011
+
+File contents:
+011000010110001001100011
+
+Function output:
+abc
+
+
+
+Hint:
+After extracting 8-bit segments from the file, it’s best to use built-in functions.
+Conversion from binary to decimal can be done using: int(binary_number, 2).
+A way to convert ASCII code to characters can be easily found in documentation :) {LINK: https://docs.python.org/3.8/}
+
+
+Start code:
+def decrypt_punchcard(file_name):
+    return

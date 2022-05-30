@@ -1,0 +1,34 @@
+Programista thanked you for your help. He took you to his Project Manager. Even though he had earlier told you that his PM would be of help, he started to tell you stories about him. By the time you reached him, you were kind of scared. What monster would do such despicable things to his employees?! You entered the office and heard a stoic voice say:
+
+“Hello, what brings you here?”
+
+“I–” you started to say. “I–” formulating a full sentence was awfully hard right now.
+“I’m from abroad and looking for a job, and I heard that there’s this whole KrasCon thing happening, and I was hoping you can help me get there.” you finally blurted out.
+
+“Oh, KrasCon! Yes, of course, I’ll help you! But say, you’re looking really pale. Is something the matter?”
+
+“I–” once again, you are stopped before you can finish.
+
+“It’s Programista, isn’t it? He probably told you some awful rumors about me, right? He’s quite the prankster, you know?” 
+
+By now, you are starting to think that you have been lied to. This dwarf really does seem friendly.
+
+“Coffee, tea?” he asks. You don’t even know when you sat down. You are about to answer when his phone starts ringing, and he leaves you in his office with an apologetic nod.
+
+“I’m sorry,” he says when he finally comes back. “It’s work-related. What were we on? Oh, yeah, KrasCon. I sadly have too much work to go there, so I did not inquire where it takes place, but I heard some of my friends at Wrocław University of Science and Technology, or, as we call it, PWr, talk about it. I’m sure that if you go there, you will find something.”
+
+Oh! It’s the first time a Dwarf didn’t ask you to do something for them in exchange for information. How lucky! You are just about to leave when you hear him say:
+
+“But… if you are already here can you do me a favor,” oh. Here it is… “One of our SQL guys left recently and left quite a mess in his wake. I need this database fixed. Can you do it? I’m sure the management will hear about this young and talented dwarf looking for a job if you do.”
+
+That’s just what you were looking for, isn’t it?! You can’t pass this offer by! It will take some time, but what’s the worst that can happen? They will still let you in at the convention if you are late, right? Right?
+
+
+The Dwarf with a laptop manages a database containing users’ data, but recently it stopped working.
+
+Before leaving work, one of the previous developers left a little “surprise” in the database
+and deleted all the backups. Because of that, a lot of users reported wrong PESEL number (national identification number) appearing on their profile. 
+You are to find the corrupted record and delete it to avoid the need for re-instantiating the whole database.
+
+Hint:
+PESEL of user nr. 45 is invalid. Do you know what it can cause?

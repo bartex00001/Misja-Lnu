@@ -1,0 +1,39 @@
+The walk to the city center did not take long. You were lucky - time is money and you don’t have too much of it. You are looking around Market Square for a dwarf with a very creative name - Wroclovek. You asked a few passers-by, but none knew where to look for him. After some time you felt like you were in a place you had already visited a few times. You ask somebody and… FINALLY!
+Oh, wait. It’s just the Author running in circles.
+They’re talking nonsense.
+please, do excuse them…
+
+Worst of all some homeless or otherwise impaired dwarf selling souvenirs is constantly trying to catch up to you and is shouting at you
+
+“Hey, you! You want something?!”
+
+“Just leave me,” you said calmly. “I don’t have spare change.”
+
+You were about to continue your search when you remembered what you were looking for. A dwarf. Pointy hat and boots. A long, patina-colored beard, that looks like it had seen better times (it’s the reason you thought him homeless). That has to be him! Wroclovek! You sincerely apologize for ignoring him for so long and immediately ask him about 
+KrasCon. While he is thinking you realize that what you at first mistook for rags of a homeless person is actually a very stylish (while eccentric) outfit. The dwarf seems to radiate an aura of a person who owns a few buildings more than you. Maybe the souvenir shop really is a profitable business after all?
+
+“Listen,” he says. “I’m not really into computers, so I don’t know anything about it, but I’ll take you to the Boss. He knows every dwarf around here and I’m sure he can help you with enough… encouragement. But nothing is free around here, so you have to do me a favor first. See, I’m old, and calculating the change after somebody purchases something from my shop is not as easy as it used to be. If you truly are as good at those computers as you say you are I’m sure you can make something to do that for me.”
+
+
+Wroclovek needs your help with calculating the change he has to give when someone buys an items from his shop.
+
+You are to write a function reszta [pl -> change], which will receive following parameters: 
+(paid_sum, magnets_amount, pens_amount, postcard_amount, figurine_amount) and calculate the change.
+
+- Magnet price – 5,40 PLN
+- Pen price – 3,49 PLN
+- Postcard price – 2,99 PLN
+- Dwarf figurine price – 10,35 PLN
+
+Return the result with an accuracy up to two decimal places.
+
+
+
+Hint:
+Round to two decimal places using round(value, 2) method 
+
+
+Starter code:
+def reszta(paid_sum, magnets_ammount, pens_ammount, postcard_ammount, figurine_ammount):
+    return
+

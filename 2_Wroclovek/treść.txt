@@ -1,0 +1,34 @@
+Marsz zajął ci niewiele. I całe szczęście, w końcu czasu to pieniądz. Szukasz na rynku wrocławskim krasnala, którego nazywają - a jakże błyskotliwie Wroclovek. Pytasz się losowych przechodniów, nic nie wiedzą, szukasz dalej. Z czasem czujesz, że krążysz w kółko. Jednak twoje spanie na lekcjach geometrii nie przeszkodzi ci w poszukiwaniach. Idziesz dalej. Przeszukujesz rynek, spytałeś się przechodnia A! WRESZCIE! 
+A nie to tylko narrator się zapętlił 
+Zaczyna bredzić
+wybaczcie.
+Najgorsze jest to, że jakiś bezdomny, który sprzedawał pamiątki chodzi ciągle za tobą i coś tam krzyczy. 
+-	E, młody czego chcesz?
+-	Zostaw mnie, nie mam drobnych - odpowiedziałeś spokojnie
+Po chwili sobie przypominasz. Krasnal. Szpiczasta czapka, szpiczaste buty. Niechlujna, patynowa broda (stąd uznałeś go za bezdomnego). To przecież on! Wroclovek! Przepraszasz go i pytasz się o Imprezę Krasnali. Wroclovek podrapał się po brodzie w zadumie. Jak tak sobie myślisz to ten strój mówi, że jest od ciebie tak o kamienice czy dwie bogatszy. Dlaczego jednak sprzedaje pamiątki na środku rynku jest dla ciebie tajemnicą. Może to faktycznie dochodowy biznes?
+-	Posłuchaj - mówi - zaprowadzę cię do szefa krasnali, ale musisz mi dać coś w zamian. Widzisz, jak widzę te wszystkie pieniądze to nie wiem, ile wydać reszty. Ale stary jestem, pamiętam jeszcze Vratislav luksemburczyków i nie idzie mi liczenie tak jak kiedyś. Mógłbyś mi tam napisać coś na ten komputr żeby za mnie liczyło?
+
+
+
+Wroclovek potrzebuje pomocy w obliczaniu reszty którą powinien wydać, gdy ktoś zakupi coś w jego sklepie.
+
+Napisz funkcję reszta(), która otrzyma argumenty (zaplacona_kwota, ilosc_magnesow, ilosc_dlugopisow, ilosc_pocztowek, ilosc_figurek)
+i obliczy jaka reszta powinna zostać wydana.
+
+Koszt magnesu - 5,40 zł
+Koszt długopisu - 3,49 zł
+Koszt pocztówki - 2,99 zł
+Koszt figurki krasnala - 10,35 zł
+
+Wynik podaj z dokładnością do dwóch miejsc po przecinku
+
+
+
+Podpowiedź:
+Zaokrąglij wartość do drugiego miejsca po przecinku korzystając z round(wartość, 2)
+
+
+
+Kod startowy:
+def reszta(zaplacona_kwota, ilosc_magnesow, ilosc_dlugopisow, ilosc_pocztowek, ilosc_figurek):
+    return

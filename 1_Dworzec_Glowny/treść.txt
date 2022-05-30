@@ -1,0 +1,27 @@
+Grafika: mapa_bez_pinów.png
+
+Będąc już na peronie przypomniałeś sobie - nie wiesz co zrobić dalej. Całe szczęście - napotykasz konduktorkę-krasnala. Może ona coś wie? W każdym razie podchodzisz do Krasnalicy. Okazuje się miłą osobą. Nie wie nic acz pada przyjemne dla uszu hasło:
+-	Wroclovek, na rynku, zna się na mieście. Może on coś wie?
+Nie masz nic innego do roboty. Krasnalica dała ci mapę. Krasnal siedzi w okolicy więc podejmujesz jedyną słuszną decyzję - Kierunek Rynek! 
+-	Czekaj! Mógłbyś mi w czymś pomóc? Jesteś programistą zgadza się? W każdym razie potrzebuję programisty. Ostatnio pociąg spóźnił się o 24 godziny. Po czym jak wyjechał to wypadł z torów. Prawie uderzył w schronisko dla słodkich kotków i piesków. W każdym razie zarząd PKP robi co może - przeprasza już od tygodnia za sytuację. Kazali nam od teraz witać każdego pasażera po czym wręczać im laurkę posypaną brokatem. - powiedziała wyciągając laurkę 
+-	już mi ręka siada. Mógłbyś stworzyć jakiś program, który wiesz, wypełni te kartki?
+
+
+Krasnal dworcowy potrzebuje program, który automatycznie wypełni kartkę z przywitaniem i imieniem nowo poznanego krasnala.
+
+Napisz funkcję przywitanie(), która do każdego elementu w przekazanej liście doda na początku tekst 
+"Witaj ", a na końcu '!', a następnie zwróci zmodyfikowaną listę
+
+
+
+Podpowiedź:
+Stwórz nową pustą listę i dodawaj do niej wartości korzystając z metody .append()
+lista = []
+lista.append("wartość")
+
+
+
+
+Kod startowy:
+def przywitanie(lista_imion):
+    return

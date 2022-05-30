@@ -1,0 +1,80 @@
+The chemists looked at you in a mix of shock and disbelief. They had never seen someone code so fast!
+
+“I–” one starts to say “– I don’t know what to say. I mean, thank you for writing that, but… Well, it’s just that we don’t actually know where the KrasCon is...”
+
+…Why didn’t they say anything?! You angrily rush out of the building. You just wasted so much time you could have spent searching.
+
+“Wait!” you hear the now familiar voice shout. “We don’t know where exactly it is, but what we do know is that it is UWr that’s hosting it! You should go to their main building. I’m sure that somebody there knows where to look for it!”
+
+Well, that’s the only lead you have got. The least you can do is follow through with it.
+
+As you arrive at the University of Wrocław’s building you are greeted by the sight of an old dwarf. He seems to be a professor of some kind! Maybe he will know where to look for the convention!
+
+“Umm, hello, do you maybe, possibly, uh, probably, know where the KrasCon takes place?” you ask.
+
+“KrasCon? Ah, that event for you IT people, right? Yes, of course, I do, I know everything that happens at this university!”
+
+It was at this moment you should have turned around and started to run. But now’s too late!
+
+“You see, I’ve got a lot of respect for people of your profession. I’m sure it wasn’t easy to fake the moon landing, was it? How did you do that by the way? Oh, you can’t say that, can you? Government secrets and stuff. Splendid job. But I still don’t quite grasp why you made some of those things up. I get it that you say that the world is round to hide all the treasures behind the ice wall, but what’s up with gravity? Do you seriously think you will convince people that a big rock can redefine where down is? I think not! Ha!”
+
+It went on like this for at least half an hour. You switched them off at some point and only tuned back in when they seemed to wait for you to answer something.
+
+“I’m sorry, what was it?” you asked.
+
+“I asked if you could write me some code that will help me get from one bus stop to another.”
+
+“Oh, yes, of course. But will you tell me where the KrasCon is? And nothing else?”
+
+“Yes, but–”
+
+“What do you teach by the way?” you ask before the dwarf can start ranting again
+
+“Philosophy…”
+
+
+
+The Professor would like to know whether there is a path from stop `a` to stop `b`.
+
+Function check_connection() takes three arguments:
+stop_a, stop_b and connections. First two arguments describe stop ids.
+Third argument is a dictionary formated like so:
+{
+	...
+	stop_id: [ ids_of_connected_stops ]
+	...
+}
+
+The dictionary stores only direct connections. This means that if stop a can be found in connections[b] direct connection exists.
+You are to write the check_connection() function, so it returns True if there is a direct or indirect connection from stop_a to stop_b.
+Otherwise, the function should return False.
+
+Example:
+Input:
+stop_a = 1
+stop_b = 3
+
+connections =
+{
+    1: [2],
+    2: [1, 3],
+    3: [2],
+}
+
+Output:
+True
+
+The connection exists because from stop 1, you can go to stop 3 via stop 2.
+
+
+Hint:
+Algorithm should recursively visit all available, unvisited stops. Starting from stop a and stopping when we reach stop b or when it can’t reach any unvisited stops.
+
+
+Starter code:
+def check_connection(przystanek_a, przystanek_b, polaczenia):
+	return true
+
+
+
+ 

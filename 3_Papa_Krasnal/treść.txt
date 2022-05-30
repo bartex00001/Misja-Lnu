@@ -1,0 +1,46 @@
+Idąc Wroclovek opowiada ci o Papa Krasnalu. Dowiadujesz się od niego, że był uczestnikiem Pomarańczowej Alternatywy i od tego czasu to on został najbardziej politycznie zaangażowanym krasnalem. Krasnale nie są zbyt polityczne. Polityka jest niezwykle nudna, zwłaszcza kiedy nie dotyczy krasnali. Chwila, Pomarańczowa Alternatywa. Polityka, Obraziłeś Wroclovka… Czyżby to jakiś lokalny mafioso? Rozejrzałeś się, nie ma gdzie uciekać, trzeba było nie jeść tyle, nadgoni cię w minutę. Zrobiłeś to co zrobiłby każdy bohater - bronił swojego życia do samego końca. Wybiegłeś przed niego i padłeś na kolana:
+-	Błagam, naprawde mi przykro za tamto już tak nie postąpię, przysięgam! Błagam nie zasługuję na śmierć, przysięgam zrobię cokolwiek tylko mnie nie prowadź! Mam żonę, dwójkę dzieci i kredyt we frankach!
+Ostatnie zdanie powiedziałeś z płaczem. Chyba nie zadziałało, Wroclovek patrzy się na ciebie z uśmiechem. Na pewno już myśli co ci zrobi za tą zniewagę…
+-	Błagam, wiem mam psa - nie chcesz by Fafik cierpiał przez ciebie, prawda? Kochasz pieski, wszyscy kochają pieski. Nie chcesz by zmarł z głodu? Tak nie chcesz, dlatego puścisz mnie wolno w końcu taki poczciwy przestępca jak ty nie zrobiłby nic złego pieskowi.
+-	…
+-	To jakbyś się tak przesunął… - rzekłeś z nadzieją
+Wroclovek śmieje się. Mało powiedziane, turla się ze śmiechu, dusi się, cudem łapie powietrze. Może go zabiłeś … Tak zdolny kłamca jak ty mógłby zabić słowami. Nie ma to znaczenia chyba pora uciekać zanim wsta… 
+
+Wstał. A obok niego jakiś inny krasnal wyraźnie zaciekawiony wydarzeniem. Może to tylko wyobraźnia, ale wygląda jakby miał podnieść auto jedną ręką.
+-	Papuś to jest yyh kolega, który chciał się spytać, gdzie jest jakaś impreza krasnali. Ta informatyczna
+-	Znam takiego informatyka, zaprowadzę cię tam, tylko muszę dokończyć robotę. Obrócił się w twoją stronę
+-	Mam masę papierów do przeglądnięcia. Jakbyś mi tak pomógł wyszukać co nieco. Masz te komputery to się nadasz.
+Jak rzekł tak też żeś zrobił.
+ 
+
+
+Papa Krasnal, jako najstarszy z krasnali, ma wiele obowiązków. Jednym z nich jest rozwiązywanie sporów między krasnalami o starszość wiekiem.
+
+Napisz funkcję wiek(), która po otrzymaniu listy słowników zawierających imiona krasnali 'name'
+oraz datę ich ustawienia 'date' zwróci imię krasnala który został ustawiony najwcześniej.
+W przypadku remisu zwróć pierwsze imię w kolejności alfabetycznej.
+
+
+
+Przykłady:
+
+Wejście:
+[{'name': 'Krwiopijca', 'date': '14.06.2011'}, {'name': 'Recyklinek', 'date': '18.10.2011'}, {'name': 'FATuś', 'date': '14.02.2012'}]
+Wyjście:
+'Krwiopijca'
+
+Wejście:
+[{'name': 'Maślarz', 'date': '21.04.2018'}, {'name': 'Rozkwietnik', 'date': '14.08.2013'}, {'name': 'Profesor Miodek', 'date': '13.07.2016'}, {'name': 'Ostrowiak', 'date': '04.11.2015'}]
+Wyjście:
+'Rozkwietnik'
+
+
+
+Podpowiedź:
+Jeżeli znasz bibliotekę datetime możesz z niej skorzystać do łatwego porównywania dat. Jeżeli nie – nic nie szkodzi. Porównaj oddzielnie rok, miesiąc i dzień. Pamiętaj o zamianie typów danych!
+
+
+
+Kod startowy:
+def wiek(krasnale):
+    return

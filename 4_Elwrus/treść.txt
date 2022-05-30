@@ -1,0 +1,40 @@
+Idąc na Grabiszyn Papa Krasnal tłumaczył ci, że Pomarańczowa Alternatywa to była organizacja opozycyjna w PRL-owskim systemie która powstała we Wrocławiu. Jako że protesty były wtedy nielegalne, organizowali happeningi, które miały zakpić z ówczesnej władzy. Papa Krasnal opowiedział jak kiedyś wszyscy zebrali się na Świdnickiej i przebrali się w czerwone krasnoludki. Takie szpiczaste czapki i koszulki jak to ludzie myślą, że krasnoludki się ubierają. Do dziś pamięta jak milicja aresztowała “czerwonych” albo jak przez kilka kolejnych miesięcy w mieście mówili jak to milicja zgarnęła krasnoludki. Osobiście cię to kompletnie nie bawi, ale ludzie wtedy chyba nie wiedzieli za bardzo co jest takiego śmiesznego na tym świecie więc chyba dobre i to. Spotykasz Elwrusia. Wygląda dla ciebie jak taki miły dziadek co uwielbia dzieci i rozdaje im cukierki. 
+-	Kopę lat Elwruś! Widzisz mam tu takiego wrzoda co się pojawił tu nie wiadomo skąd i chce się dostać na tę całą informatyczną imprezę krasnali.
+To proste zdanie uświadomiło ci, że zrobiłeś paskudne wrażenie na wrocławskich krasnalach. Będziesz musiał to zmienić, ale jak już dostaniesz się na Imprezę.
+-	Ostatnio to ja impreze widział łoj dawno temu. Mam jednak takiego wnuczka programistę to powinien już wiedzieć, ale musisz najpierw w czymś mi pomóc. Widzisz chcę zagrać w starego dobrego pierwszego wolfensteina. Ach wtedy to były gry a nie to co teraz. Może i gry były brzydkie i nudniejsze iii gorsze - ale jak kupowałeś to nie płaciłeś dwustu złotych i otrzymywałeś przyciętego gniota co ma więcej bugów niż masz pikseli na ekranie. Pamiętam, jak zobaczyłem po raz pierwszy komputer byłem w studiach na wycieczce szkolnej …
+Elwruś coś tam dalej mówił. Może słuchałeś, ja niespecjalnie. Ludzie czytają te teksty? Nie rozumiem czemu by ktoś miał to przeczytać, nie jesteście tu chyba po to by znosić czyjeś mierne wypociny, tylko robić zadania. Także Elwruś chce byś zrobił program zczytujący wiadomości z karty dziurkowanej. Także punch card. Wolfenstein. Zadanka.
+
+
+Elwruś potzrebuje pomocy w odczytaniu starych kart dziurkowanych.
+
+Napisz funkcję decrypt_punchcard(), która po otrzymaniu nazwy pliku zawierającego zapis punchcarda odkoduje go.
+Punchcardy przechowują dane TYLKO w postaci zer i jedynek.
+
+- Odszyfrowana wiadomość będzie składać się tylko z małych liter
+- Znaki na punchcardzie są zapisane w ASCII - każdy znak to jeden bajt (osiem zer lub jedynek)
+- Zapis na punchcardzie zawsze będzie poprawny, nawet jeżeli jego treść pozornie nie ma sensu
+- Funkcja ma zwrócić odszyfrowaną wiadomość jako tekst
+
+
+Przykład:
+"a" = 01100001
+"b" = 01100010
+"c" = 01100011
+
+treść pliku:
+011000010110001001100011
+
+wyjście funkcji:
+abc
+
+
+
+Podpowiedź:
+Po wyodrębnieniu 8-znakowych fragmentów najlepiej użyć funkcji wbudowanych,
+by przekonwertować system binarny na dziesiętny używamy: int(liczba_binarna, 2).
+By wiedzieć jaka funkcja zamienia kod ASCII na znak, odwiedzamy dokumentację :) {LINK: https://docs.python.org/3.8/}
+
+
+Kod startowy:
+def decrypt_punchcard(file_name):
+    return

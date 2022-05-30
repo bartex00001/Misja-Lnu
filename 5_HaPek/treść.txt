@@ -1,0 +1,59 @@
+Krasnal HaPek jak na krasnala wygląda… Normalnie. Jeśli istnieje jakiś standard normalnego krasnalowego wyglądu to jest to właśnie on. Może poza wielkimi, imponującymi zakolami. To akurat ma stanowczo po dziadku. Patrząc na wiek jest gdzieś tak na pierwszym roku studiów. Po tapecie na komputerze widać, że jest fanem starego rpg „Lochy i Krasnale”.
+-	Wnusiu, masz tu takiego kolegę musi się on dostać na Imprezę krasnali.
+„Wnuczek” popatrzył się na ciebie jak na człowieka, który zamiast załatwić sprawę z nim samym przyprowadza dziadka by ten nie mógł ci odmówić. PR nie jest twoją najlepszą stroną, to na pewno.
+-	Zaimplementuj fizz buzz.
+-	Fajnie by było to zrobić, ale mi się nieco śpieszy i takie tam …
+-	Fajnie, ale zaimplementuj fizz buzz
+Cokolwiek się wyprawia ty tego nie wiesz. Czy to wywnioskował z twarzy czy z niezręcznej ciszy HaPek kontynuował:
+-	Nie zrozumiałeś chyba czegoś. To nie jest ot taka informatyczna impreza krasnali. To jest Informatyczna Impreza Krasnali. Trzy duże litery. Coś więcej. Nie może się na nią dostać byle śmiertelnik. Bycie tam to jest zaszczyt i czy jesteś tego zaszczytu godzien może być sprawdzone tylko w jeden sposób… Stawaj do walki!
+W tym momencie wstał i rzucił w ciebie rękawicą. Najwyraźniej ten akurat krasnal jest bardzo… ekscentryczny.	
+-	Zaimplementuj fizz buzz jeśli zrobisz to lepiej ode mnie powiem ci gdzie szukać. Jeśli ci nie wyjdzie to przykro mi, ale będziesz musiał szukać sam.
+Zauważyłeś jak sprawnie Elwruś uciekł z pola tej jakże fascynującej bitwy. Trudno. Jak widać będziesz zmuszony się upokorzyć, ale jak to mówią - wszystko dla kariery.
+
+
+HaPek potrzebuje twojej pomocy w implementacji programu, który sprawdzałby poprawność zadania FizzBuzz.
+FizzBuzz jest zadaniem występującym na rekrutacjach w branży IT. Testuje estetykę pisania kodu.
+
+FizzBuzz polega na wypisaniu liczb z zakresu, jednak gdy:
+- liczba jest podzielna przez 3, należy wypisać Fizz
+- gdy podzielna przez 5, należy wypisać Buzz
+- gdy podzielna przez 3 i 5, należy wypisać FizzBuzz
+
+
+Twoim zadaniem jest napisanie programu, który sprawdzi udzielone odpowiedzi.
+Otrzymasz vector pair: int oraz string. Gdzie int oznacza liczbę, a string wypisany tekst.
+Zwróć true, jeżeli odpowiedzi są poprawne i false w przeciwnym wypadku.
+
+
+
+Przykłady: 
+
+Dla danych:
+{
+    {3, "Fizz"},
+    {5, "Buzz"}
+}
+Program powinien zwrócić true.
+
+Dla danych:
+{
+    {15, "FizzBuzz"},
+    {7, "Fizz"}
+}
+Program powinien zwrócic false.
+
+
+Podpowiedź:
+Najlepiej każdą odpowiedz użytkownika analizować osobno. Stworzyć swoją - poprawną odpowiedz i porównać z otrzymaną.
+
+
+
+Kod startowy:
+#include <vector>
+#include <string>
+
+
+bool testFizzBuzz(std::vector<std::pair<int, std::string> >& userAnswers)
+{
+    return true;
+}

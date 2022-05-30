@@ -1,0 +1,25 @@
+Grafika: mapa_bez_pinów.png
+
+You ran out of the train as fast as you could, mere seconds before it continued its journey. Whew! That was close! But what to do now? You look around and your eyes meet a female conductor coming your way. She asks for your name. Dumbfounded you give it to her, and, to your surprise, she fills out a card greeting you in the city. When you ask her about the convention she thinks for a while before answering.
+“Oh, ya an IT guy ain’t ya? Well, I’ve never heard of it, but I bet ya that Wroclovek has. That guy knows everything goin’ on in the city! But… could ya do a thing for the little old me first? You see there’s been that accident a few days ago, a few people ‘lmost died and the higher-ups want us to be like super friendly to people. We’re meant to hand out those greetings to y’all but my hand is hurtin’ from filling ‘em out. Could ya write some program or whatevah to fill ‘em out for me? It’d help me much!”
+The way she asked it left no room to argue. It seems you will spend some more time at the station.
+
+
+The station dwarf needs a program, which will automatically fill out a card with greetings for a newly met dwarf.
+
+You are to write a function przywitanie() [pl -> greetings], which for every element of given list will add  
+"Witaj " [pl -> welcome] to the beginning and '!' to the end and will return the modified list afterwards.
+
+
+
+Hint:
+Crate a new empty list and add elements to it using the .append() method.
+lista = []
+lista.append("value")
+
+
+
+
+Starter code:
+def przywitanie(name_list):
+    return

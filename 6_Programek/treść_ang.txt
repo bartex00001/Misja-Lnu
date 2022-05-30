@@ -1,0 +1,57 @@
+It was a duel of the century. Very one-sided, but still one nonetheless. Switching programming languages had caught you off guard but not enough to cause you to lose. If losing was even possible. HaPek did not seem very competitive. Nothing he had written seemed to work, but he did not seem too worried about it. Your suspicions about him just using you grew…
+
+HaPek politely explained to you that he was too busy to go to KrasCon, a friend of his is definitely going to be there, so he is going to take you to him. You didn’t think that getting there would be easy, did you? I’m sorry to disappoint.
+
+After a short walk, you finally reached your destination. It turned out to be a café. The dwarf there had a long, dark beard, a loose hoodie, and a baseball cap. Stereotypes much? Anyone?
+
+When you were thinking, Programista (according to HaPek his name means “programmer”) started to rage and curse his employer.
+
+“What does he expect me to do!” you hear him scream. “What are those limitations? They should let people set their password to whatever they wish, they will end up hashing them either way!”
+“Oh, let’s give them all the requirements!” He is imitating somebodies voice now. “He is doing too well! He can finally. Pay. His. Rent!”
+“Oh, hi HaPek!” It seems like he has finally noticed you.
+
+“Hi, Programek!” your companion answers. You’re pretty sure he said his name differently before, but you just shrug it off as more Polish weirdness. “I’ve got a guy here that has some business with you.”
+
+“Oh, I’d be happy to help, but I’m kinda busy. You see, a colleague of mine left recently, and all of his code is not only buggy, but it also lacks any comments whatsoever! And guess who was ordered to maintain it? Me!”
+
+It seems like this individual cannot help you. Well, it’s time to find a new lead…
+
+“Wait!” he shouts just when you are about to leave. “You’re an IT guy too aren’t you. I’ll get you in contact with my Project Manager, he can help with anything, can you just fix this one function for me? It’s been stumping me for weeks!”
+
+The desperation visible in his eyes is almost equal to yours. You don’t have any other leads, do you? You can at least help the poor guy…
+
+
+The Programmer must fix the broken code and needs your help.
+
+Function username_validate() should assess whether username passed as an argument contains characters other than:
+- Lowercase letters
+- Uppercase letters
+- Numbers
+If username contains only listed characters, the function should return True, otherwise it sould return False.
+
+You are to find the bug in the code and to fix it.
+
+
+Example of correct assessment:
+
+Input:
+Abcd145125
+
+Output:
+True
+
+Input:
+Abc d1&%$&
+
+Output:
+False
+
+
+
+Starter code:
+def username_validate(username):
+    allowed_characters = "qwertyuiopasdfghjklzxcvbnm1234567890"
+    for character in username:
+        if not character in allowed_characters:
+            return False
+    return True

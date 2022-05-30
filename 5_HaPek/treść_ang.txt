@@ -1,0 +1,68 @@
+HaPek is the most average-looking dwarf you have ever met. If there was some sort of definition of a standard dwarf, his photo would be attached to it as an example. The only thing not average about him is his name. HaPek, Elwruś. Are all dwarfs in this family named after IT companies? Well, it’s something to consider later. Looking at him, he seems to be in his first year of college.
+
+“Pumpkin, here’s a peer of yours that wants to partake in this whole KrasCon you keep talking about.”
+
+You are pretty sure that the number of KrasCon mentions in Elwruś’s (Elwruś’ ? Polish names are weird) story is different than before, but that's not your main concern right now. HaPek is looking at you with a murderous look of a person who was just greeted by their grandparent in the cheesiest way imaginable, and it’s all your fault. Let’s just say he is not too happy about it.
+
+“I’ll help you, but you have to do something for me first,” he warned. “I have to implement a FizzBuzz tester for my boss, he needs it for a job interview, and the deadline was yesterday.”
+
+“I couldn’t be happier to help, but I’m sort of in a hurry right now,” you answer politely.
+
+“Yeah, can’t have that. Implement that tester first.”
+
+“I– ” you try to say something but are rudely interrupted.
+
+“Listen,” he says “KrasCon is a big deal. It has two capital letters in its name. I cannot just tell you where it is. You will have to prove yourself to me first. Being there is a privilege, one that can be gained in just one way – in a code off.”
+
+He throws a glove in your face. An old-fashioned coding duel it is.
+
+“We will both try to implement a FizzBuzz tester. The first one to do it successfully wins. If you win, I’ll tell you what I know. If I win… well, let's just say you don’t want me to win.”
+
+You have a sneaking suspicion that he is just trying to use you, but you are desperate. It’s time to stretch those fingers and code some good old c++.
+
+
+
+HaPek needs your help in implementing a program which will evaluate the correctness of FizzBuzz.
+FizzBuzz is a common recruitment challenge in IT. It allows for assessing the aesthetics of applicant's code.
+
+FizzBuzz program should print numbers from given interval, but when:
+- the number is divisible by 3, print Fizz
+- the number is divisible by 5, print Buzz
+- the number is divisible by 3 and 5, print FizzBuzz
+
+
+You are to write a testing program for FizzBuzz. 
+You will be given a vector of pairs, each holding int, and string - accordingly number and the given answer. 
+Your program should return true if all entries are correct and otherwise should return false.
+
+
+Examples:
+
+For data:
+{
+    {3, "Fizz"},
+    {5, "Buzz"}
+}
+Program should return true.
+
+For data:
+{
+    {15, "FizzBuzz"},
+    {7, "Fizz"}
+}
+Program should return false.
+
+
+Hint:
+It’s best to analyse each answer separately. Read the number, create your answer and compare it to the one in the vector.
+
+
+Starter code:
+#include <vector>
+#include <string>
+
+
+bool testFizzBuzz(std::vector<std::pair<int, std::string> >& userAnswers)
+{
+    return true;
+}

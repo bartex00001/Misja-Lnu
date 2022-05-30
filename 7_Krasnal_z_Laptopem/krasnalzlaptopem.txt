@@ -1,8 +1,0 @@
-Krasnal z Laptopem zarządza bazą danych zawierającą dane użytkowników, ale ostatnio przestała ona działać.
-
-Jeden z byłych programistów przed odejściem z pracy pozostawił w bazie danych "psikusa"
-i usunął wszystkie backupy przez co wielu użytkowników widzi na swojej stronie błędny nr PESEL.
-Znajdź i usuń wadliwy rekord z bazy danych, aby uniknąć potrzeby usuwania i stawiania bazy danych od nowa.
-
-
-Podpowiedź: Użytkownik 45 posiada wadliwy PESEL, czy wiesz co może on powodować?

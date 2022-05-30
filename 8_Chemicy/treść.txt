@@ -1,0 +1,56 @@
+Grafika: palindormowodor.png
+
+Politechnika Wrocławska. Jeśli jest jakiś labirynt, którego nie nikt nie spamięta to może i nie będzie to ten kompleks, ale na pewno będzie blisko. Jeśli tu jest już politechnika to wydział Informatyki chyba będzie niedaleko, prawda?
+Znalazłeś mapę wraz z rozpiską co jest gdzie. Niestety jedyną mapę jaką naprawdę potrafisz obsłużyć to mapy google. Wszedłeś do budynku święcie przekonany, że to jest to. Cel twojej podróży. No prawie. Trafiłeś do wydziału chemicznego. Kompletnie nie to miejsce. Pomimo tego usiadłeś na ławce. Przez cały dzień chodzisz po mieście i szukasz jednej rzeczy. Właśnie zrobiłeś trening kardio, który starczy ci do końca życia. Widzisz na korytarzu dwóch Krasnali - uwaga to będzie odkrywcze - chemików. Podsłuchujesz ich z racji, że nie masz niczego lepszego do roboty. 
+-	Teraz już te roboty z UWr nas nie przegonią! Spójrz, to jest najważniejsza cząsteczka jaką odkrył krasnal stąpający po ziemi. Tej ziemi! Palindromowodór! To jest właśnie ta cząsteczka, po której zażyciu schudniesz 40 kg w jeden dzień. To jest ten domowy produkt co odmładza o dziesięć lat. Po jednej dawce. Rozwiązanie na wszystkie możliwe problemy dręczące ludzkość. I krasnoludzkość też! Istnieją opracowania, które mówią, że wystarczająco długa cząstka uleczy raka! Teraz pozostaje nam tylko porównać długości naszych palindromowodorów z palindromowodorami tych mend z UWru. Pokażemy im kto jest najważniejszy w tym mieście!
+-	Yhm, wspaniale Chemuś tylko… Jak my policzymy ich długość?
+-	To oczywiste! Weźmiemy kartkę i… i … hmm gdyby tak, nie wiem, zaprogramować coś co za nas to policzy? 
+-	Wszyscy programiści, których znam, poszli na KrasCon. Gdybyś robił coś więcej niż te palindromy to byś wiedział, że to ma być niedaleko.
+Na samo słowo KrasCon wstałeś. Takiej okazji nie możesz przegapić!
+-	Panowie, – mówisz - wspominaliście coś o KrasConie? Wiecie może gdzie to jest? Zaprowadzilibyście mnie? Dajcie laptopa już wam to zaprogramuję…
+
+
+
+Chemicy na UWr i PWr rywalizują o stworzenie najdłuższej cząsteczki palindromowodoru.
+
+Twoim zadaniem jest implementacja funkcji compare_palindromes(), która zwróci długość najdłuższego palindromowodoru z PWr i UWr.
+Dwaj chemicy nie moga się doliczyć ich długości, dlatego poprosili cię o pomoc.
+
+- Nazwy plików z palindromowodorami zostaną przekazane w argumentach funkcji.
+- Związki chemiczne będą znajdować się w odzielnych linjkach (wiele w jednym pliku).
+- Nie każdy związek musi być palindromowodorem.
+- Funkcja powinna zwrócić krotkę zawierającą długość najdłuższego palindromowodoru PWR i UWR,
+  chemikom wystarczy długość - potrafią porównać dwie liczby całkowite.
+- Palindromowodory mogą składać się tylko z: węgla, wodoru, tlenu, azotu i fosforu (zapis jako jednoliterowe symbole chemiczne)
+- Związek jest palindromowodorem tylko jeżeli zapis występujących w nim atomów będzie taki sam, nie zależnie od kierunku zliczania.
+
+Przykład:
+Treść plików, odpowiednio:
+
+pwr_file:
+COOH
+COOCHCOOC
+COOHCHHCOHHCHH
+
+uwr_file:
+CHHCOOH
+HHCHHCHH
+CHHH
+
+Wyjście:
+(9, 8)
+
+
+
+Podpowiedź:
+Wszystkie linie z pliku (oddzielnie) można wczytać do listy używając wyrażenia 
+with open(file_name) as file:
+    lines = file.readlines()
+
+Na proste odwrócenie stringa też napewno jest jakiś sposób :)
+
+
+
+Kod Startowy:
+def compare_palindromes(pwr_file, uwr_file):
+    return (0, 0)

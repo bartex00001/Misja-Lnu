@@ -1,0 +1,49 @@
+To była bitwa wszechczasów. Było ciężko w końcu była to walka na śmierć i życie - jeśli mówiąc o śmierci mamy na myśli zrobienie ze wstydu seppuku plastikową łyżeczką. Poprzeczka nie była wysoka. Bowiem cokolwiek napisał HaPek to i tak nie zadziałało. Poniżony HaPek zaprowadził cię do samego Programisty. Nie spodziewałeś się chyba że to koniec podróży czyż nie? Będziesz mnie znosił aż mi się skończą pomysły. Spoiler - na sam koniec spotkasz na UW organizatora Imprezy i okaże się, że ten padł na zawał. Wszystko co osiągnąłeś pójdzie na marne. A potem wydam sequel, gdzie dzięki twoim własnym umiejętnościom oraz mocy przyjaciół których spotkałeś po drodze wrócisz i tym razem może uda ci się dojść do samej Imprezy. Albo wydam serię książek. Wszystko musi mieć książki no nie? 
+Dotarliście na miejsce.
+Scena, która maluje się przed twoimi oczyma kiedy spotykasz informatyka jest wręcz groteskowa. Widzisz krasnala, mężczyznę, z długą czarną brodą, w luźnej bluzie, noszącego czapkę z daszkiem. A to wszystko w Starbucksie. Stereotyp za stereotypem. Gdy tak rozmyślasz Programek (czy jak na niego w domu mówią) uderzył pięścią w stół. 
+-	Czego do diabła oni oczekują żebym zrobił?! Powinni pozwolić człowiekowi normalnie wpisać login i hasło, ale nie, tu spacji nie wolno, a tu wykrzyknika, bo czemu by nie?! 
+-	Dajmy Programiście jak najwięcej wytycznych. Tak, za dobrze mu ostatnio się powodzi! Ostatnio nawet zjadł makaron na obiad, bo reszta pensji na czynsz poszła - powiedział Programista. Chyba próbował udawać czyjś głos. Nie wyszło mu. 
+-	A. To ty HaPek - najwyraźniej was zauważył.
+-	Siema Programek - powiedział HaPek - Mam tu takiego co się chce o coś spytać…
+-	Pomógłbym ci, gdyby nie ten project manager nade mną. Ten cham zlecił mi jakiegoś niewykonalnego taska. Nie dość, że ma wymagania rozpisane na osiem stron to jeszcze mam to zrobić na jutro. Kim ja jestem, że mam tyle tego czytać. Prawnik?! Powinni go wylać. Jeśli nie za bycie cholernie niekompetentnym to za bycie złośliwym, frustrującym c…
+Oczywiście chodzi o cumulonimbus. Nienawidzę tych chmur. Nie dość, że chmura nieoryginalna, bo podszywa się pod cumulusa, to potem przez parę godzin pada deszcz i generalnie bieda.
+-	Jak mi pomożesz to zabiorę cię do mojego PMa tylko proszę, muszę to skończyć, muszę mieć jak opłacić czynsz. Wroclovek mi groził, że jak nie zapłacę zaległości to wywali mnie na ulicę.
+Desperacja w jego oczach dorównuje twojej. Różnica jest taka, że ty pragniesz już desperacko mieć spokój. Nie pozostaje ci więc nic więcej jak zabrać się do roboty.
+
+
+Programista musi naprawić zepsuty kod i potrzebuje twojej pomocy
+
+Funkcja username_validate() powinna sprawdzać czy podany w argumencie username NIE zawiera innych znaków niż:
+- małe litery
+- duże litery
+- cyfry
+Jeżeli argument username zawiera tylko podane znaki, funkcja powinna zwrócić True,
+w innym przypadku powinna zwrócić False.
+
+Znajdź błąd w programie i napraw go.
+
+
+Przykład poprawnego działania:
+
+Wejście:
+Abcd145125
+
+Wyjście:
+True
+
+Wejście:
+Abc d1&%$&
+
+Wyjście:
+False
+
+
+
+Kod startowy:
+
+def username_validate(username):
+    allowed_characters = "qwertyuiopasdfghjklzxcvbnm1234567890"
+    for character in username:
+        if not character in allowed_characters:
+            return False
+    return True
