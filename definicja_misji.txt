@@ -62,6 +62,25 @@ Lekcje:
 	Zadanie: Lekcja z grafiką
 	Etykietki: WROCLAWSKI_TURYSTA
 
+
+Informacje dodatkowe:
+- Wizualizacja znajduje się w folderze "Wizualizacja", w formatach: .pdf .psd .afpub
+- Jeżeli nazwa pliku zawiera sufiks "_ang", to plik dotyczy angielskiej wersji misji.
+- Struktura folderu z lekcją:
+	pliki: "treść.docx" i "treść_ang.docx" zawierają samą historię zadania z formatowaniem (bez czerwonej ramki).
+	pliki: "treść.txt" i "treść_ang.txt" zawierają całą treść lekcji bez formatowania
+	grafiki: nazwy opisane w "treść.txt" i "treść_ang.txt"
+	folder "pliki lekcji" zawiera:
+		definicję lekcji ("definicja_lekcji.txt")
+		plik: test.[], z funkcją testującą
+		plik: "rozwiązanie.[]", z proponowanym rozwiązaniem zadania
+		plik: (nazwa opisana w "definicja_lekcji.txt") zawierający kod startowy
+		
+		Pliki te występują tylko wtedy gdy ma to sens (nie na lekcjach z grafiką i sql)
+
+- Uwagi dotyczące pojedynczych misji będą się znajdować w pliku: "definicja_lekcji.txt"
+
+
 Osiągnięcia:
 tytuł: Wrocławski turysta
 opis: Za odnalezienie tytułowego wydażenia w misji "KrasCon 2022"
