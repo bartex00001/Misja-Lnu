@@ -1,3 +1,5 @@
+# Znajduje się tutak plik cmakelists, ponieważ w ten sposób budowałem projekt
+
 fizzBuzzTester.cpp
 widoczny: TAK
 do edycji: TAK
