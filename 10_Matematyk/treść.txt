@@ -1,3 +1,15 @@
+Profesor powiedział ci w którym budynku odbywa się Impreza. I chwała mu za to, bo masz już dość biegania w tę i z powrotem. A więc wchodzisz do Instytutu Matematycznego UWru. Tak. To nawet nie jest Politechnika. Jednak przekraczając te drzwi czujesz dumę w sercu. Tak. TO jest to miejsce. Koniec twojej podróży. Wkraczasz do odpowiedniego skrzydła i tam widnieje napis “Informatyczna Impreza Informatyków”. Przed wejściem widnieje Krasnal. Imię jego to “Matematyk”. Znasz typ osoby. Jest tu jak cerber strzegący bram Hadesu. Trzeba mu udowodnić, że jesteś warty przejścia przez wrota… cóż, katedry matematyki. Ale niech to cię nie zmyli! To miejsce jest czymś więcej niż tylko stypą dla osób chcących wejść we wrocławskie środowisko informatyczne. To jest bilet do kariery. Prawie tak jak ukończenie Oxfordu czy Harvardu. Te uniwersytety chyba są znane bardziej od strony humanistycznej czyż nie? W każdym bądź razie wiesz o co chodzi.
+- Dzień dobry Panie Profesorze. Ja tutaj na KrasCon. Proszę bardzo mam tu papiery… 
+Szukasz po kieszeniach w tym czasie mówiąc:
+- Powinniście podać lepiej informację, gdzie to jest. Szukałem was cały dzień. 
+- A sprawdziłeś Krasbooka? – pada odpowiedź.
+Zapomniałeś. Żyjemy w XXI wieku a ty pytasz się ludzi na ulicy, gdzie jest jakiś konwent i nie sprawdzasz mediów społecznościowych. Brawa dla ciebie! Oby tylko nie trzeba było się wpisać na jakąś listę. Podałeś mu papiery.
+- A to ty. Śmiało wcho... Żartuję, nie ma cię na liście. Ale nie martw się, zawsze możesz wejść za rok. Trzeba się było wpisać, gdy był na to moment. Chyba że... 
+- Widzisz jest taki programik, który bym potrzebował, wiesz jak to bywa, gdyby znalazł się on na komputerze to mógłbym tak przez przypadek zgubić listę gości i musiałbym ci uwierzyć na słowo - uśmiechnął się Matematyk.
+Chyba wie o twojej desperacji, bowiem najwyraźniej uznał z marszu, że się zgadzasz. 
+- Więc, masz tutaj na komputerze bazę danych. Wszystko zapisane w odwrotnej notacji polskiej, więc lepszej. Masz to odszyfrować i podać wyniki. Możesz też spróbować to wszystko policzyć na kartce, ale wtedy straciłbyś z kilka godzin Imprezy.
+Ale miły. Jednak to nie stoi ci na przeszkodzie bowiem nie po to przeszedłeś pół Wrocławia by się teraz poddać! Wziąłeś komputer i zabrałeś się do roboty.
+
 
 
 Matematyk otrzymał z instytutu informatyki obliczenia zapisane w odwrotnej notacji polskiej. Pomóż mu i oblicz wartość podanych wyrażeń.
