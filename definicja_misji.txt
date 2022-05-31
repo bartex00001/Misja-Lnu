@@ -56,7 +56,7 @@ Lekcje:
 	Rodzaj: obowiązkowe
 	Zadanie: python
 
-11.	Tytuł: Koniec
+12.	Tytuł: Koniec
 	Folder: 11_Koniec
 	Rodzaj: obowiązkowe
 	Zadanie: Lekcja z grafiką
