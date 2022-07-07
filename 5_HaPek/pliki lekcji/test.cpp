@@ -1,10 +1,10 @@
 #include "fizzBuzzTester.h"
-#include <vector>
 #include <string>
 #include <iostream>
 
 constexpr auto NUMBER_OF_RANDOM_TESTS = 10;
-constexpr auto FIZZ_BUZZ_LENGTH = 10;
+constexpr auto MIN_FIZZ_BUZZ_LENGTH = 5;
+constexpr auto MAX_FIZZ_BUZZ_LENGTH = 25;
 
 constexpr auto SUCCESS_MESSAGE = "Działa!\nCiekawe jak idzie HaPekowi...";
 constexpr auto FAIL_MESSAGE = "Coś chyba nie działa...\nPopraw program i spróbuj ponownie";
@@ -29,39 +29,48 @@ std::string getAnswerFor(int number)
     return expected;
 }
 
-std::vector<std::pair<int, std::string> > generateRandomAnswers(bool isCorrect)
+void generateQuestions(int questions[], int len)
 {
-    std::vector<std::pair<int, std::string> > randomAnswers;
-    for(auto i = 0; i < FIZZ_BUZZ_LENGTH; i++)
+    for(auto i = 0; i < len; i++)
     {
-        int number = rand() % 1000 + 1;
-        if(isCorrect)
-        {
-            randomAnswers.push_back({number, getAnswerFor(number)});
-        }
-        else
-        {
-            randomAnswers.push_back({number, getAnswerFor(number + 1)});
-        }
+        // Generate number in range <1, 100>
+        questions[i] = rand() % 100 + 1;
     }
+}
 
-    // As answers are generated randomly, we need to ensure the there is an incorect example
-    if(!isCorrect)
+void generateAnswers(std::string answers[], int questions[], int len)
+{
+    for(auto i = 0; i < len; i++)
     {
-        randomAnswers.push_back({5, "Fizz"});
+        answers[i] = getAnswerFor(questions[i]);
     }
+}
 
-    return randomAnswers;
+void makeAnswersIncorrect(std::string answers[], int questions[], int len)
+{
+    auto randIndex = rand() % len;
+    // Answer for (question+1) is never the same as answer for (question)
+    answers[randIndex] = getAnswerFor(questions[randIndex] + 1);
 }
 
 bool randomTest()
 {
     bool isCorrect = rand() % 2 == 0; 
-    auto dataForUser = generateRandomAnswers(isCorrect);
+    auto numberOfQuestions = rand() % (MAX_FIZZ_BUZZ_LENGTH - MIN_FIZZ_BUZZ_LENGTH + 1) + MIN_FIZZ_BUZZ_LENGTH;
+    int questions[numberOfQuestions];
+    std::string answers[numberOfQuestions];
+
+    generateQuestions(questions, numberOfQuestions);
+    generateAnswers(answers, questions, numberOfQuestions);
+
+    if(!isCorrect)
+    {
+        makeAnswersIncorrect(answers, questions, numberOfQuestions);
+    }
 
     try
     {
-        bool userAnswer = testFizzBuzz(dataForUser);
+        bool userAnswer = testFizzBuzz(questions, answers, numberOfQuestions);
 
         return isCorrect == userAnswer;
     }
@@ -90,5 +99,5 @@ bool test()
 
 int main()
 {
-    test();
+    test();  
 }

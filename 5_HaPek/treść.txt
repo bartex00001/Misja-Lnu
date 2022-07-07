@@ -21,7 +21,8 @@ FizzBuzz polega na wypisaniu liczb z zakresu, jednak gdy:
 
 
 Twoim zadaniem jest napisanie programu, który sprawdzi udzielone odpowiedzi.
-Otrzymasz vector pair: int oraz string. Gdzie int oznacza liczbę, a string wypisany tekst.
+Otrzymasz dwie tablice o długości len, jedna przechowująca zmienne int, a druga string.
+Tablica zmiennych int przechowuje zapytania, a tablica string odpowiedzi. Zmienne o tych samych indeksach tworzą parę pytanie-odpowiedź.
 Zwróć true, jeżeli odpowiedzi są poprawne i false w przeciwnym wypadku.
 
 
@@ -29,17 +30,15 @@ Zwróć true, jeżeli odpowiedzi są poprawne i false w przeciwnym wypadku.
 Przykłady: 
 
 Dla danych:
-{
-    {3, "Fizz"},
-    {5, "Buzz"}
-}
+[3, 5, 1]
+["Fizz", "Buzz", "1"]
+len = 3
 Program powinien zwrócić true.
 
 Dla danych:
-{
-    {15, "FizzBuzz"},
-    {7, "Fizz"}
-}
+[15, 7]
+["FizzBuzz", "Fizz"]
+len = 2
 Program powinien zwrócic false.
 
 
@@ -49,11 +48,10 @@ Najlepiej każdą odpowiedz użytkownika analizować osobno. Stworzyć swoją - 
 
 
 Kod startowy:
-#include <vector>
 #include <string>
 
 
-bool testFizzBuzz(std::vector<std::pair<int, std::string> >& userAnswers)
+bool testFizzBuzz(int questions[], std::string answers[], int len)
 {
     return true;
 }

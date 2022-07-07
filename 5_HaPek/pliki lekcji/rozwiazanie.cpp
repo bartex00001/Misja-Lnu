@@ -1,4 +1,3 @@
-#include <vector>
 #include <string>
 
 bool checkAnswer(int number, std::string answer)
@@ -21,11 +20,11 @@ bool checkAnswer(int number, std::string answer)
     return answer == expected;
 }
 
-bool testFizzBuzz(std::vector<std::pair<int, std::string> >& userAnswers)
+bool testFizzBuzz(int questions[], std::string answers[], int len)
 {
-    for(auto ans: userAnswers)
+    for(int i = 0; i < len; i++)
     {
-        if(!checkAnswer(ans.first, ans.second))
+        if(!checkAnswer(questions[i], answers[i]))
         {
             return false;
         }

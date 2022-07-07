@@ -1,8 +1,7 @@
-#include <vector>
 #include <string>
 
 
-bool testFizzBuzz(std::vector<std::pair<int, std::string> >& userAnswers)
+bool testFizzBuzz(int questions[], std::string answers[], int len)
 {
     return true;
 }
